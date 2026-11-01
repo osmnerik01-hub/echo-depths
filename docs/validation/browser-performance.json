@@ -1,0 +1,8 @@
+{
+  "scope": "Headless Chromium, 1280x800 CSS pixels, DPR 2, real-time Hollow Mind combat with QA input controller",
+  "samples": 182,
+  "frameMeanMs": 42.50494505415906,
+  "frameP95Ms": 50.100000000000364,
+  "cpuMeanMs": 0.796703305873242,
+  "approxFps": 23.526674336969908
+}

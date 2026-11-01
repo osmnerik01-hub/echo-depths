@@ -1,0 +1,1616 @@
+{
+  "phase": "before",
+  "duration": 5000,
+  "chromium": "156.0.8078.4",
+  "hardware": {
+    "gpu": {
+      "devices": [
+        {
+          "vendorId": 65535,
+          "deviceId": 65535,
+          "subSysId": 0,
+          "revision": 0,
+          "vendorString": "Google Inc. (Google)",
+          "deviceString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+          "driverVendor": "SwANGLE",
+          "driverVersion": "5.0.0"
+        }
+      ],
+      "auxAttributes": {
+        "amdSwitchable": false,
+        "bgra8OverlaySupport": "NONE",
+        "canSupportThreadedTextureMailbox": false,
+        "directComposition": false,
+        "directMLFeatureLevel": "Not supported",
+        "directRenderingVersion": "",
+        "displayType": "ANGLE_SWIFTSHADER",
+        "dx12FeatureLevel": "Not supported",
+        "glExtensions": "GL_AMD_performance_monitor GL_ANGLE_base_vertex_base_instance_shader_builtin GL_ANGLE_blob_cache GL_ANGLE_client_arrays GL_ANGLE_clip_cull_distance GL_ANGLE_compressed_texture_etc GL_ANGLE_copy_texture_3d GL_ANGLE_depth_texture GL_ANGLE_framebuffer_blit GL_ANGLE_framebuffer_multisample GL_ANGLE_get_image GL_ANGLE_get_serialized_context_string GL_ANGLE_get_tex_level_parameter GL_ANGLE_instanced_arrays GL_ANGLE_memory_object_flags GL_ANGLE_memory_size GL_ANGLE_multi_draw GL_ANGLE_pack_reverse_row_order GL_ANGLE_polygon_mode GL_ANGLE_program_binary_readiness_query GL_ANGLE_program_cache_control GL_ANGLE_read_only_depth_stencil_feedback_loops GL_ANGLE_relaxed_vertex_attribute_type GL_ANGLE_renderability_validation GL_ANGLE_request_extension GL_ANGLE_rgbx_internal_format GL_ANGLE_robust_client_memory GL_ANGLE_robust_fragment_shader_output GL_ANGLE_robust_resource_initialization GL_ANGLE_shader_pixel_local_storage GL_ANGLE_shader_pixel_local_storage_coherent GL_ANGLE_stencil_texturing GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ANGLE_texture_multisample GL_ANGLE_texture_usage GL_ANGLE_translated_shader_source GL_ANGLE_vulkan_image GL_ANGLE_yuv_internal_format GL_APPLE_clip_distance GL_ARM_rgba8 GL_ARM_shader_framebuffer_fetch GL_CHROMIUM_bind_generates_resource GL_CHROMIUM_bind_uniform_location GL_CHROMIUM_copy_compressed_texture GL_CHROMIUM_copy_texture GL_CHROMIUM_lose_context GL_EXT_EGL_image_array GL_EXT_EGL_image_external_wrap_modes GL_EXT_EGL_image_storage GL_EXT_base_instance GL_EXT_blend_minmax GL_EXT_buffer_storage GL_EXT_clear_texture GL_EXT_clip_control GL_EXT_clip_cull_distance GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_compressed_ETC1_RGB8_sub_texture GL_EXT_conservative_depth GL_EXT_copy_image GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_clamp GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_map_buffer_range GL_EXT_memory_object GL_EXT_occlusion_query_boolean GL_EXT_polygon_offset_clamp GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_semaphore GL_EXT_separate_shader_objects GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_non_constant_global_initializers GL_EXT_shader_texture_lod GL_EXT_shadow_samplers GL_EXT_texture_border_clamp GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_rg GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_storage GL_EXT_texture_type_2_10_10_10_REV GL_EXT_unpack_subimage GL_KHR_blend_equation_advanced GL_KHR_debug GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_NV_fence GL_NV_framebuffer_blit GL_NV_pack_subimage GL_NV_pixel_buffer_object GL_NV_polygon_mode GL_NV_read_depth GL_NV_read_depth_stencil GL_NV_read_stencil GL_NV_shader_noperspective_interpolation GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_paletted_texture GL_OES_copy_image GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_get_program_binary GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_required_internalformat GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OVR_multiview GL_OVR_multiview2 GL_QCOM_texture_lod_bias ",
+        "glImplementationParts": "(gl=egl-angle,angle=swiftshader)",
+        "glRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+        "glResetNotificationStrategy": 33362,
+        "glVendor": "Google Inc. (Google)",
+        "glVersion": "OpenGL ES 3.0 (ANGLE 2.1.28967 git hash: dfeede58b618)",
+        "glWsExtensions": "EGL_EXT_create_context_robustness EGL_ANGLE_surface_orientation EGL_KHR_create_context EGL_KHR_image EGL_KHR_image_base EGL_EXT_image_gl_colorspace EGL_KHR_gl_colorspace EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_get_all_proc_addresses EGL_KHR_fence_sync EGL_KHR_wait_sync EGL_ANGLE_create_context_webgl_compatibility EGL_CHROMIUM_create_context_bind_generates_resource EGL_KHR_swap_buffers_with_damage EGL_EXT_pixel_format_float EGL_KHR_surfaceless_context EGL_ANGLE_display_texture_share_group EGL_ANGLE_display_semaphore_share_group EGL_ANGLE_create_context_client_arrays EGL_ANGLE_program_cache_control EGL_ANGLE_robust_resource_initialization EGL_ANGLE_create_context_extensions_enabled EGL_ANDROID_blob_cache EGL_ANDROID_recordable EGL_ANGLE_create_context_backwards_compatible EGL_KHR_no_config_context EGL_IMG_context_priority EGL_KHR_create_context_no_error EGL_KHR_reusable_sync EGL_EXT_buffer_age EGL_ANGLE_create_surface_swap_interval EGL_ANGLE_vulkan_image EGL_KHR_partial_update EGL_ANGLE_global_fence_sync EGL_ANGLE_memory_usage_report ",
+        "glWsVendor": "Google Inc. (Google)",
+        "glWsVersion": "1.5 (ANGLE 2.1.28967 git hash: dfeede58b618)",
+        "inProcessGpu": false,
+        "initializationTime": 1.334622,
+        "isAsan": false,
+        "isClangCoverage": false,
+        "jpegDecodeAcceleratorSupported": false,
+        "maxMsaaSamples": "4",
+        "nv12OverlaySupport": "NONE",
+        "optimus": false,
+        "p010OverlaySupport": "NONE",
+        "passthroughCmdDecoder": true,
+        "pixelShaderVersion": "3.00",
+        "processCrashCount": 0,
+        "rgb10a2OverlaySupport": "NONE",
+        "sandboxed": false,
+        "skiaBackendType": "None",
+        "subpixelFontRendering": true,
+        "supportsD3dSharedImages": false,
+        "supportsDirectML": false,
+        "supportsDx12": false,
+        "supportsOverlays": false,
+        "supportsVulkan": false,
+        "targetCpuBits": 64,
+        "vertexShaderVersion": "3.00",
+        "visibilityCallbackCallCount": 0,
+        "vulkanVersion": "Not supported",
+        "yuy2OverlaySupport": "NONE"
+      },
+      "featureStatus": {
+        "2d_canvas": "unavailable_software",
+        "direct_rendering_display_compositor": "disabled_off_ok",
+        "gpu_compositing": "disabled_software",
+        "multiple_raster_threads": "enabled_on",
+        "opengl": "disabled_off",
+        "rasterization": "disabled_software",
+        "raw_draw": "disabled_off_ok",
+        "skia_graphite": "disabled_off",
+        "trees_in_viz": "disabled_off",
+        "video_decode": "disabled_software",
+        "video_encode": "disabled_software",
+        "webgl": "unavailable_software",
+        "webgpu": "unavailable_software",
+        "webnn": "unavailable_software"
+      },
+      "driverBugWorkarounds": [],
+      "videoDecoding": [],
+      "videoEncoding": []
+    },
+    "modelName": "",
+    "modelVersion": "",
+    "commandLine": "\"PRIVATE_LOCAL_PATH" --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=\"PRIVATE_LOCAL_PATH" --remote-debugging-pipe --no-startup-window --use-gl=angle --use-angle=swiftshader-webgl --allow-pre-commit-input --disable-gpu-process-for-dx12-info-collection --disable-cookie-encryption"
+  },
+  "results": [
+    {
+      "phase": "before",
+      "scene": "empty",
+      "seed": "OVERDRIVE-V1",
+      "profile": "HIGH",
+      "viewport": [
+        1280,
+        800
+      ],
+      "dpr": 2,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "samples": 147,
+      "fps": 29.351862944770573,
+      "meanMs": 34.06938775510204,
+      "p50Ms": 33.30000000000018,
+      "p95Ms": 50,
+      "p99Ms": 50.100000000000364,
+      "longFrames50": 2,
+      "overBudget167": 141,
+      "cpuTotalsMs": {
+        "lights": 6.499998569488525,
+        "render": 39.299997329711914,
+        "particlesEffects": 2.1999998092651367,
+        "ai": 0.5,
+        "boss": 0.5000002384185791,
+        "bulletPhysicsCollision": 0.5,
+        "update": 7.200000286102295,
+        "hud": 14.800000429153442
+      },
+      "cpuCalls": {
+        "lights": 1470,
+        "render": 147,
+        "particlesEffects": 600,
+        "ai": 600,
+        "boss": 600,
+        "bulletPhysicsCollision": 600,
+        "update": 600,
+        "hud": 52
+      },
+      "peak": {
+        "enemies": 0,
+        "bullets": 0,
+        "particles": 0
+      },
+      "heap": {
+        "used": 10000000,
+        "total": 10000000
+      },
+      "particlesPool": null,
+      "traceTop": [
+        [
+          "RunTask",
+          {
+            "ms": 5785.073000000111,
+            "count": 4677
+          }
+        ],
+        [
+          "ProxyMain::BeginMainFrame",
+          {
+            "ms": 5034.4980000000005,
+            "count": 147
+          }
+        ],
+        [
+          "Commit",
+          {
+            "ms": 4906.158999999999,
+            "count": 147
+          }
+        ],
+        [
+          "LayerTreeHost::DoUpdateLayers",
+          {
+            "ms": 4895.938,
+            "count": 147
+          }
+        ],
+        [
+          "Canvas2DResourceProvider::ProduceCanvasResource",
+          {
+            "ms": 179.432,
+            "count": 148
+          }
+        ],
+        [
+          "WebFrameWidgetImpl::BeginMainFrame",
+          {
+            "ms": 76.023,
+            "count": 148
+          }
+        ],
+        [
+          "Blink.Animate.UpdateTime",
+          {
+            "ms": 75.294,
+            "count": 148
+          }
+        ],
+        [
+          "PageAnimator::serviceScriptedAnimations",
+          {
+            "ms": 74.71400000000006,
+            "count": 148
+          }
+        ],
+        [
+          "FrameRequestCallbackCollection::ExecuteFrameCallbacks",
+          {
+            "ms": 72.74000000000002,
+            "count": 148
+          }
+        ],
+        [
+          "FireAnimationFrame",
+          {
+            "ms": 72.49300000000001,
+            "count": 148
+          }
+        ],
+        [
+          "AsyncTask Run",
+          {
+            "ms": 71.91899999999998,
+            "count": 148
+          }
+        ],
+        [
+          "FunctionCall",
+          {
+            "ms": 68.87900000000002,
+            "count": 148
+          }
+        ],
+        [
+          "WebFrameWidgetImpl::UpdateLifecycle",
+          {
+            "ms": 49.640000000000015,
+            "count": 148
+          }
+        ],
+        [
+          "LocalFrameView::RunStyleAndLayoutLifecyclePhases",
+          {
+            "ms": 24.45900000000001,
+            "count": 148
+          }
+        ],
+        [
+          "LocalFrameView::UpdateStyleAndLayout",
+          {
+            "ms": 23.541999999999998,
+            "count": 148
+          }
+        ],
+        [
+          "ProxyImpl::ReadyToCommit",
+          {
+            "ms": 23.503999999999998,
+            "count": 148
+          }
+        ],
+        [
+          "RasterizerTaskImpl::RunOnWorkerThread",
+          {
+            "ms": 22.422,
+            "count": 208
+          }
+        ],
+        [
+          "RasterTask",
+          {
+            "ms": 20.241000000000007,
+            "count": 208
+          }
+        ],
+        [
+          "ZeroCopyRasterBuffer::Playback",
+          {
+            "ms": 19.43599999999999,
+            "count": 208
+          }
+        ],
+        [
+          "Blink.Layout.UpdateTime",
+          {
+            "ms": 16.447000000000003,
+            "count": 52
+          }
+        ],
+        [
+          "auto cc::LayerTreeHostImpl::PrepareTiles()::(lambda)::operator()()::(lambda)::operator()(uint32_t) const",
+          {
+            "ms": 16.091000000000005,
+            "count": 289
+          }
+        ],
+        [
+          "LocalFrameView::layout",
+          {
+            "ms": 15.911999999999999,
+            "count": 52
+          }
+        ],
+        [
+          "Layout",
+          {
+            "ms": 15.813999999999997,
+            "count": 52
+          }
+        ],
+        [
+          "auto cc::TileManager::PrepareTiles(const GlobalStateThatImpactsTilePriority &)::(lambda)::operator()()::(lambda)::operator()(uint32_t) const",
+          {
+            "ms": 15.58,
+            "count": 289
+          }
+        ],
+        [
+          "LocalFrameView::performLayout",
+          {
+            "ms": 15.496,
+            "count": 52
+          }
+        ]
+      ],
+      "cdpMetrics": [
+        {
+          "name": "Timestamp",
+          "value": 1372638.728249
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 4
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 1
+        },
+        {
+          "name": "Frames",
+          "value": 1
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 24
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 2920
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 2667
+        },
+        {
+          "name": "Resources",
+          "value": 0
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 4
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 1
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 0
+        },
+        {
+          "name": "LayoutCount",
+          "value": 62
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 62
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.020025
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.007128
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.001833
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.07828
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 6.010749
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 5.903483
+        },
+        {
+          "name": "ThreadTime",
+          "value": 7.103823
+        },
+        {
+          "name": "ProcessTime",
+          "value": 7.428407
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 2817188
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 3764224
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 0
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 1372631.580079
+        },
+        {
+          "name": "NavigationStart",
+          "value": 1372631.463568
+        }
+      ],
+      "errors": [],
+      "durationMs": 5000
+    },
+    {
+      "phase": "before",
+      "scene": "normal",
+      "seed": "OVERDRIVE-V1",
+      "profile": "HIGH",
+      "viewport": [
+        1280,
+        800
+      ],
+      "dpr": 2,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "samples": 121,
+      "fps": 24.281098869994214,
+      "meanMs": 41.18429752105524,
+      "p50Ms": 33.400000000000546,
+      "p95Ms": 50.09999999999991,
+      "p99Ms": 50.100000000000364,
+      "longFrames50": 9,
+      "overBudget167": 120,
+      "cpuTotalsMs": {
+        "lights": 6.1000001430511475,
+        "render": 52.899999380111694,
+        "particlesEffects": 3.799999952316284,
+        "lineOfSight": 15.699999332427979,
+        "ai": 29.6999990940094,
+        "boss": 0.20000004768371582,
+        "collisionChecks": 8.400000095367432,
+        "bulletPhysicsCollision": 12.100000619888306,
+        "update": 49.89999866485596,
+        "hud": 13.200000286102295,
+        "astar": 5.799999952316284
+      },
+      "cpuCalls": {
+        "lights": 1977,
+        "render": 121,
+        "particlesEffects": 595,
+        "lineOfSight": 6862,
+        "ai": 557,
+        "boss": 557,
+        "collisionChecks": 2499,
+        "bulletPhysicsCollision": 557,
+        "update": 595,
+        "hud": 53,
+        "astar": 8
+      },
+      "peak": {
+        "enemies": 6,
+        "bullets": 11,
+        "particles": 59
+      },
+      "heap": {
+        "used": 10000000,
+        "total": 10000000
+      },
+      "particlesPool": null,
+      "traceTop": [
+        [
+          "RunTask",
+          {
+            "ms": 5705.619000000088,
+            "count": 4268
+          }
+        ],
+        [
+          "ProxyMain::BeginMainFrame",
+          {
+            "ms": 5013.974000000004,
+            "count": 121
+          }
+        ],
+        [
+          "Commit",
+          {
+            "ms": 4871.711,
+            "count": 122
+          }
+        ],
+        [
+          "LayerTreeHost::DoUpdateLayers",
+          {
+            "ms": 4862.153000000002,
+            "count": 122
+          }
+        ],
+        [
+          "Canvas2DResourceProvider::ProduceCanvasResource",
+          {
+            "ms": 162.05100000000007,
+            "count": 122
+          }
+        ],
+        [
+          "WebFrameWidgetImpl::BeginMainFrame",
+          {
+            "ms": 132.24900000000002,
+            "count": 122
+          }
+        ],
+        [
+          "Blink.Animate.UpdateTime",
+          {
+            "ms": 131.62800000000004,
+            "count": 122
+          }
+        ],
+        [
+          "PageAnimator::serviceScriptedAnimations",
+          {
+            "ms": 131.05300000000005,
+            "count": 122
+          }
+        ],
+        [
+          "FrameRequestCallbackCollection::ExecuteFrameCallbacks",
+          {
+            "ms": 129.18700000000004,
+            "count": 122
+          }
+        ],
+        [
+          "FireAnimationFrame",
+          {
+            "ms": 128.974,
+            "count": 122
+          }
+        ],
+        [
+          "AsyncTask Run",
+          {
+            "ms": 128.502,
+            "count": 122
+          }
+        ],
+        [
+          "FunctionCall",
+          {
+            "ms": 125.92100000000002,
+            "count": 122
+          }
+        ],
+        [
+          "WebFrameWidgetImpl::UpdateLifecycle",
+          {
+            "ms": 52.91700000000002,
+            "count": 122
+          }
+        ],
+        [
+          "LocalFrameView::RunStyleAndLayoutLifecyclePhases",
+          {
+            "ms": 26.991999999999997,
+            "count": 122
+          }
+        ],
+        [
+          "LocalFrameView::UpdateStyleAndLayout",
+          {
+            "ms": 26.142000000000003,
+            "count": 122
+          }
+        ],
+        [
+          "RasterizerTaskImpl::RunOnWorkerThread",
+          {
+            "ms": 25.852000000000007,
+            "count": 216
+          }
+        ],
+        [
+          "RasterTask",
+          {
+            "ms": 23.615000000000006,
+            "count": 216
+          }
+        ],
+        [
+          "ProxyImpl::ReadyToCommit",
+          {
+            "ms": 22.846000000000014,
+            "count": 122
+          }
+        ],
+        [
+          "ZeroCopyRasterBuffer::Playback",
+          {
+            "ms": 22.64,
+            "count": 216
+          }
+        ],
+        [
+          "Blink.Layout.UpdateTime",
+          {
+            "ms": 18.324999999999996,
+            "count": 53
+          }
+        ],
+        [
+          "LocalFrameView::layout",
+          {
+            "ms": 17.766999999999996,
+            "count": 53
+          }
+        ],
+        [
+          "Layout",
+          {
+            "ms": 17.656000000000002,
+            "count": 53
+          }
+        ],
+        [
+          "LocalFrameView::performLayout",
+          {
+            "ms": 17.271,
+            "count": 53
+          }
+        ],
+        [
+          "auto cc::LayerTreeHostImpl::PrepareTiles()::(lambda)::operator()()::(lambda)::operator()(uint32_t) const",
+          {
+            "ms": 15.244,
+            "count": 244
+          }
+        ],
+        [
+          "auto cc::TileManager::PrepareTiles(const GlobalStateThatImpactsTilePriority &)::(lambda)::operator()()::(lambda)::operator()(uint32_t) const",
+          {
+            "ms": 14.71800000000001,
+            "count": 244
+          }
+        ]
+      ],
+      "cdpMetrics": [
+        {
+          "name": "Timestamp",
+          "value": 1372646.281797
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 4
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 1
+        },
+        {
+          "name": "Frames",
+          "value": 1
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 24
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 476
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 478
+        },
+        {
+          "name": "Resources",
+          "value": 0
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 4
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 1
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 3
+        },
+        {
+          "name": "LayoutCount",
+          "value": 63
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 63
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.022518
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.008039
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.001765
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.14694
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 6.191478
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 6.012216
+        },
+        {
+          "name": "ThreadTime",
+          "value": 6.175388
+        },
+        {
+          "name": "ProcessTime",
+          "value": 7.869658
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 3248772
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 7958528
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 0
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 1372638.877671
+        },
+        {
+          "name": "NavigationStart",
+          "value": 1372638.852526
+        }
+      ],
+      "errors": [],
+      "durationMs": 5000
+    },
+    {
+      "phase": "before",
+      "scene": "crowd",
+      "seed": "OVERDRIVE-V1",
+      "profile": "HIGH",
+      "viewport": [
+        1280,
+        800
+      ],
+      "dpr": 2,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "samples": 119,
+      "fps": 23.94848057867422,
+      "meanMs": 41.756302522611215,
+      "p50Ms": 49.90000000000009,
+      "p95Ms": 50,
+      "p99Ms": 50.09999999999991,
+      "longFrames50": 4,
+      "overBudget167": 118,
+      "cpuTotalsMs": {
+        "lights": 7.800001621246338,
+        "render": 61.80000066757202,
+        "particlesEffects": 3.6999995708465576,
+        "lineOfSight": 22.499998331069946,
+        "ai": 47.69999885559082,
+        "boss": 0.4999995231628418,
+        "collisionChecks": 11.90000057220459,
+        "bulletPhysicsCollision": 15.800000429153442,
+        "update": 72.69999837875366,
+        "hud": 14.90000057220459,
+        "astar": 11.700000047683716
+      },
+      "cpuCalls": {
+        "lights": 2661,
+        "render": 119,
+        "particlesEffects": 596,
+        "lineOfSight": 16097,
+        "ai": 558,
+        "boss": 558,
+        "collisionChecks": 3481,
+        "bulletPhysicsCollision": 558,
+        "update": 596,
+        "hud": 56,
+        "astar": 20
+      },
+      "peak": {
+        "enemies": 12,
+        "bullets": 14,
+        "particles": 103
+      },
+      "heap": {
+        "used": 10000000,
+        "total": 10000000
+      },
+      "particlesPool": null,
+      "traceTop": [
+        [
+          "RunTask",
+          {
+            "ms": 5681.774000000099,
+            "count": 4259
+          }
+        ],
+        [
+          "ProxyMain::BeginMainFrame",
+          {
+            "ms": 5007.904,
+            "count": 119
+          }
+        ],
+        [
+          "Commit",
+          {
+            "ms": 4786.971,
+            "count": 119
+          }
+        ],
+        [
+          "LayerTreeHost::DoUpdateLayers",
+          {
+            "ms": 4777.8110000000015,
+            "count": 119
+          }
+        ],
+        [
+          "WebFrameWidgetImpl::BeginMainFrame",
+          {
+            "ms": 165.58399999999995,
+            "count": 120
+          }
+        ],
+        [
+          "Blink.Animate.UpdateTime",
+          {
+            "ms": 164.98499999999999,
+            "count": 120
+          }
+        ],
+        [
+          "PageAnimator::serviceScriptedAnimations",
+          {
+            "ms": 164.447,
+            "count": 120
+          }
+        ],
+        [
+          "FrameRequestCallbackCollection::ExecuteFrameCallbacks",
+          {
+            "ms": 162.69200000000004,
+            "count": 120
+          }
+        ],
+        [
+          "FireAnimationFrame",
+          {
+            "ms": 162.44899999999996,
+            "count": 120
+          }
+        ],
+        [
+          "AsyncTask Run",
+          {
+            "ms": 161.94800000000006,
+            "count": 120
+          }
+        ],
+        [
+          "FunctionCall",
+          {
+            "ms": 159.25800000000004,
+            "count": 120
+          }
+        ],
+        [
+          "Canvas2DResourceProvider::ProduceCanvasResource",
+          {
+            "ms": 156.86799999999994,
+            "count": 120
+          }
+        ],
+        [
+          "WebFrameWidgetImpl::UpdateLifecycle",
+          {
+            "ms": 53.41900000000001,
+            "count": 120
+          }
+        ],
+        [
+          "LocalFrameView::RunStyleAndLayoutLifecyclePhases",
+          {
+            "ms": 27.824,
+            "count": 120
+          }
+        ],
+        [
+          "LocalFrameView::UpdateStyleAndLayout",
+          {
+            "ms": 26.959000000000007,
+            "count": 120
+          }
+        ],
+        [
+          "RasterizerTaskImpl::RunOnWorkerThread",
+          {
+            "ms": 25.198,
+            "count": 224
+          }
+        ],
+        [
+          "ProxyImpl::ReadyToCommit",
+          {
+            "ms": 23.168,
+            "count": 120
+          }
+        ],
+        [
+          "RasterTask",
+          {
+            "ms": 22.802000000000007,
+            "count": 224
+          }
+        ],
+        [
+          "ZeroCopyRasterBuffer::Playback",
+          {
+            "ms": 21.79699999999999,
+            "count": 224
+          }
+        ],
+        [
+          "Blink.Layout.UpdateTime",
+          {
+            "ms": 18.710000000000004,
+            "count": 56
+          }
+        ],
+        [
+          "LocalFrameView::layout",
+          {
+            "ms": 18.095,
+            "count": 56
+          }
+        ],
+        [
+          "Layout",
+          {
+            "ms": 17.996000000000002,
+            "count": 56
+          }
+        ],
+        [
+          "LocalFrameView::performLayout",
+          {
+            "ms": 17.599999999999994,
+            "count": 56
+          }
+        ],
+        [
+          "auto cc::LayerTreeHostImpl::PrepareTiles()::(lambda)::operator()()::(lambda)::operator()(uint32_t) const",
+          {
+            "ms": 15.880999999999993,
+            "count": 240
+          }
+        ],
+        [
+          "auto cc::TileManager::PrepareTiles(const GlobalStateThatImpactsTilePriority &)::(lambda)::operator()()::(lambda)::operator()(uint32_t) const",
+          {
+            "ms": 15.373000000000008,
+            "count": 240
+          }
+        ]
+      ],
+      "cdpMetrics": [
+        {
+          "name": "Timestamp",
+          "value": 1372653.619806
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 4
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 1
+        },
+        {
+          "name": "Frames",
+          "value": 1
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 24
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 852
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 814
+        },
+        {
+          "name": "Resources",
+          "value": 0
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 4
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 1
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 5
+        },
+        {
+          "name": "LayoutCount",
+          "value": 65
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 65
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.021584
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.008034
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.001727
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.17703
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 5.921932
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 5.713557
+        },
+        {
+          "name": "ThreadTime",
+          "value": 7.188381
+        },
+        {
+          "name": "ProcessTime",
+          "value": 7.660066
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 4161364
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 7958528
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 0
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 1372646.467252
+        },
+        {
+          "name": "NavigationStart",
+          "value": 1372646.438944
+        }
+      ],
+      "errors": [],
+      "durationMs": 5000
+    },
+    {
+      "phase": "before",
+      "scene": "boss",
+      "seed": "OVERDRIVE-V1",
+      "profile": "HIGH",
+      "viewport": [
+        1280,
+        800
+      ],
+      "dpr": 2,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "samples": 126,
+      "fps": 25.25303136490297,
+      "meanMs": 39.59920635072012,
+      "p50Ms": 33.40000000000009,
+      "p95Ms": 50,
+      "p99Ms": 50.100000000000364,
+      "longFrames50": 6,
+      "overBudget167": 125,
+      "cpuTotalsMs": {
+        "lights": 5.7999982833862305,
+        "render": 49.39999771118164,
+        "particlesEffects": 3.8999998569488525,
+        "ai": 0.2999997138977051,
+        "boss": 1.700000524520874,
+        "collisionChecks": 21.20000195503235,
+        "bulletPhysicsCollision": 30.800002336502075,
+        "update": 41.70000338554382,
+        "hud": 13.199999809265137
+      },
+      "cpuCalls": {
+        "lights": 1554,
+        "render": 126,
+        "particlesEffects": 598,
+        "ai": 558,
+        "boss": 558,
+        "collisionChecks": 17506,
+        "bulletPhysicsCollision": 558,
+        "update": 598,
+        "hud": 50
+      },
+      "peak": {
+        "enemies": 1,
+        "bullets": 59,
+        "particles": 137
+      },
+      "heap": {
+        "used": 10000000,
+        "total": 10000000
+      },
+      "particlesPool": null,
+      "traceTop": [
+        [
+          "RunTask",
+          {
+            "ms": 5728.248000000077,
+            "count": 4327
+          }
+        ],
+        [
+          "ProxyMain::BeginMainFrame",
+          {
+            "ms": 5017.598000000003,
+            "count": 126
+          }
+        ],
+        [
+          "Commit",
+          {
+            "ms": 4841.399000000001,
+            "count": 126
+          }
+        ],
+        [
+          "LayerTreeHost::DoUpdateLayers",
+          {
+            "ms": 4831.829,
+            "count": 126
+          }
+        ],
+        [
+          "Canvas2DResourceProvider::ProduceCanvasResource",
+          {
+            "ms": 161.10300000000007,
+            "count": 127
+          }
+        ],
+        [
+          "WebFrameWidgetImpl::BeginMainFrame",
+          {
+            "ms": 120.67200000000001,
+            "count": 127
+          }
+        ],
+        [
+          "Blink.Animate.UpdateTime",
+          {
+            "ms": 120.01899999999999,
+            "count": 127
+          }
+        ],
+        [
+          "PageAnimator::serviceScriptedAnimations",
+          {
+            "ms": 119.50900000000001,
+            "count": 127
+          }
+        ],
+        [
+          "FrameRequestCallbackCollection::ExecuteFrameCallbacks",
+          {
+            "ms": 117.51100000000004,
+            "count": 127
+          }
+        ],
+        [
+          "FireAnimationFrame",
+          {
+            "ms": 117.26200000000003,
+            "count": 127
+          }
+        ],
+        [
+          "AsyncTask Run",
+          {
+            "ms": 116.78800000000005,
+            "count": 127
+          }
+        ],
+        [
+          "FunctionCall",
+          {
+            "ms": 114.09400000000002,
+            "count": 127
+          }
+        ],
+        [
+          "WebFrameWidgetImpl::UpdateLifecycle",
+          {
+            "ms": 53.147000000000006,
+            "count": 127
+          }
+        ],
+        [
+          "LocalFrameView::RunStyleAndLayoutLifecyclePhases",
+          {
+            "ms": 27.20200000000001,
+            "count": 127
+          }
+        ],
+        [
+          "LocalFrameView::UpdateStyleAndLayout",
+          {
+            "ms": 26.381000000000007,
+            "count": 127
+          }
+        ],
+        [
+          "RasterizerTaskImpl::RunOnWorkerThread",
+          {
+            "ms": 25.438000000000006,
+            "count": 204
+          }
+        ],
+        [
+          "RasterTask",
+          {
+            "ms": 23.180000000000003,
+            "count": 204
+          }
+        ],
+        [
+          "ProxyImpl::ReadyToCommit",
+          {
+            "ms": 22.897,
+            "count": 127
+          }
+        ],
+        [
+          "ZeroCopyRasterBuffer::Playback",
+          {
+            "ms": 22.35500000000002,
+            "count": 204
+          }
+        ],
+        [
+          "Blink.Layout.UpdateTime",
+          {
+            "ms": 18.254,
+            "count": 50
+          }
+        ],
+        [
+          "LocalFrameView::layout",
+          {
+            "ms": 17.717000000000006,
+            "count": 50
+          }
+        ],
+        [
+          "Layout",
+          {
+            "ms": 17.628999999999994,
+            "count": 50
+          }
+        ],
+        [
+          "LocalFrameView::performLayout",
+          {
+            "ms": 17.288,
+            "count": 50
+          }
+        ],
+        [
+          "auto cc::LayerTreeHostImpl::PrepareTiles()::(lambda)::operator()()::(lambda)::operator()(uint32_t) const",
+          {
+            "ms": 15.80300000000001,
+            "count": 254
+          }
+        ],
+        [
+          "auto cc::TileManager::PrepareTiles(const GlobalStateThatImpactsTilePriority &)::(lambda)::operator()()::(lambda)::operator()(uint32_t) const",
+          {
+            "ms": 15.285999999999996,
+            "count": 254
+          }
+        ]
+      ],
+      "cdpMetrics": [
+        {
+          "name": "Timestamp",
+          "value": 1372660.810966
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 4
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 1
+        },
+        {
+          "name": "Frames",
+          "value": 1
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 24
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 1027
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 968
+        },
+        {
+          "name": "Resources",
+          "value": 0
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 4
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 1
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 0
+        },
+        {
+          "name": "LayoutCount",
+          "value": 60
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 60
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.022925
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.008322
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.001835
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.125828
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 5.916006
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 5.757096
+        },
+        {
+          "name": "ThreadTime",
+          "value": 5.902283
+        },
+        {
+          "name": "ProcessTime",
+          "value": 7.443219
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 3577432
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 5861376
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 0
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 1372653.769635
+        },
+        {
+          "name": "NavigationStart",
+          "value": 1372653.745396
+        }
+      ],
+      "errors": [],
+      "durationMs": 5000
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "scope": "10 accelerated complete runs, 180 rooms / 30 bosses, HIGH DPR2; every room rendered; paused for 2 real seconds after restart before forced GC; not a wall-clock endurance/GPU-memory proof",
+  "chromium": "156.0.8078.4",
+  "gpu": [
+    {
+      "vendorId": 65535,
+      "deviceId": 65535,
+      "subSysId": 0,
+      "revision": 0,
+      "vendorString": "Google Inc. (Google)",
+      "deviceString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+      "driverVendor": "SwANGLE",
+      "driverVersion": "5.0.0"
+    }
+  ],
+  "viewport": [
+    1280,
+    800
+  ],
+  "deviceScaleFactor": 2,
+  "roomDraws": 180,
+  "simulatedSeconds": 2863.7749999990388,
+  "samples": [
+    {
+      "run": 1,
+      "heapUsed": 4509408,
+      "dom": {
+        "documents": 1,
+        "nodes": 163,
+        "jsEventListeners": 43
+      },
+      "pool": {
+        "capacity": 650,
+        "created": 244,
+        "free": 244,
+        "reused": 17244
+      }
+    },
+    {
+      "run": 2,
+      "heapUsed": 4619112,
+      "dom": {
+        "documents": 1,
+        "nodes": 163,
+        "jsEventListeners": 43
+      },
+      "pool": {
+        "capacity": 650,
+        "created": 244,
+        "free": 244,
+        "reused": 35728
+      }
+    },
+    {
+      "run": 3,
+      "heapUsed": 4667564,
+      "dom": {
+        "documents": 1,
+        "nodes": 163,
+        "jsEventListeners": 43
+      },
+      "pool": {
+        "capacity": 650,
+        "created": 244,
+        "free": 244,
+        "reused": 52574
+      }
+    },
+    {
+      "run": 4,
+      "heapUsed": 4727856,
+      "dom": {
+        "documents": 1,
+        "nodes": 163,
+        "jsEventListeners": 43
+      },
+      "pool": {
+        "capacity": 650,
+        "created": 244,
+        "free": 244,
+        "reused": 71686
+      }
+    },
+    {
+      "run": 5,
+      "heapUsed": 4738428,
+      "dom": {
+        "documents": 1,
+        "nodes": 163,
+        "jsEventListeners": 43
+      },
+      "pool": {
+        "capacity": 650,
+        "created": 244,
+        "free": 244,
+        "reused": 89557
+      }
+    },
+    {
+      "run": 6,
+      "heapUsed": 4767404,
+      "dom": {
+        "documents": 1,
+        "nodes": 163,
+        "jsEventListeners": 43
+      },
+      "pool": {
+        "capacity": 650,
+        "created": 244,
+        "free": 244,
+        "reused": 106080
+      }
+    },
+    {
+      "run": 7,
+      "heapUsed": 4811180,
+      "dom": {
+        "documents": 1,
+        "nodes": 163,
+        "jsEventListeners": 43
+      },
+      "pool": {
+        "capacity": 650,
+        "created": 244,
+        "free": 244,
+        "reused": 125523
+      }
+    },
+    {
+      "run": 8,
+      "heapUsed": 4825564,
+      "dom": {
+        "documents": 1,
+        "nodes": 163,
+        "jsEventListeners": 43
+      },
+      "pool": {
+        "capacity": 650,
+        "created": 244,
+        "free": 244,
+        "reused": 144210
+      }
+    },
+    {
+      "run": 9,
+      "heapUsed": 4855972,
+      "dom": {
+        "documents": 1,
+        "nodes": 163,
+        "jsEventListeners": 43
+      },
+      "pool": {
+        "capacity": 650,
+        "created": 244,
+        "free": 244,
+        "reused": 161702
+      }
+    },
+    {
+      "run": 10,
+      "heapUsed": 4864536,
+      "dom": {
+        "documents": 1,
+        "nodes": 163,
+        "jsEventListeners": 43
+      },
+      "pool": {
+        "capacity": 650,
+        "created": 244,
+        "free": 244,
+        "reused": 179260
+      }
+    }
+  ],
+  "quietPauseMs": 2000,
+  "steadyAfterWarmupRuns": 2,
+  "steadyHeapRangeBytes": 196972,
+  "lastMinusFirstSteadyBytes": 196972
+}

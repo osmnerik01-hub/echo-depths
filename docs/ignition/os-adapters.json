@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+    "AdapterRAM": 4293918720,
+    "DriverVersion": "32.0.16.1047",
+    "Status": "OK"
+  },
+  {
+    "Name": "Intel(R) UHD Graphics",
+    "AdapterRAM": 1073741824,
+    "DriverVersion": "30.0.101.1340",
+    "Status": "OK"
+  }
+]

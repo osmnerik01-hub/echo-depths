@@ -1,0 +1,402 @@
+{
+  "method": "Median of 3 runs × 5 seconds after 1 second warmup; alternating before/after; same Chromium, 1280×800 CSS, DPR2 HIGH, fixed seed/fixture parameters; traces include overhead; CPU spans inclusive",
+  "chromium": "156.0.8078.4",
+  "gpu": [
+    {
+      "vendorId": 65535,
+      "deviceId": 65535,
+      "subSysId": 0,
+      "revision": 0,
+      "vendorString": "Google Inc. (Google)",
+      "deviceString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+      "driverVendor": "SwANGLE",
+      "driverVersion": "5.0.0"
+    }
+  ],
+  "rows": [
+    {
+      "scene": "empty",
+      "before": {
+        "runs": [
+          {
+            "fps": 12.861736333912143,
+            "meanMs": 77.75000000298023,
+            "samples": 64
+          },
+          {
+            "fps": 13.81748724970569,
+            "meanMs": 72.37205882142571,
+            "samples": 68
+          },
+          {
+            "fps": 14.220705346709696,
+            "meanMs": 70.32000000136239,
+            "samples": 70
+          }
+        ],
+        "fps": 13.81748724970569,
+        "meanMs": 72.37205882142571,
+        "p50Ms": 83.30000000000018,
+        "p95Ms": 100,
+        "p99Ms": 100.10000000000036,
+        "longFrames50": 43,
+        "longTasks50": 43,
+        "heapUsed": 2842088,
+        "cpuPerFrame": {
+          "lights": 0.07343748584389687,
+          "shadowGeometry": 0.0029411736656637755,
+          "render": 0.48999999591282434,
+          "particles": 0.00857142720903669,
+          "particlesEffects": 0.03593750298023224,
+          "ai": 0.007352941176470588,
+          "boss": 0.004411764004651238,
+          "bulletPhysicsCollision": 0.012857134001595633,
+          "update": 0.1171875,
+          "hud": 0.3558823676670299
+        },
+        "particleEmitted": 0,
+        "pool": null
+      },
+      "after": {
+        "runs": [
+          {
+            "fps": 24.896598803357023,
+            "meanMs": 40.16612903225807,
+            "samples": 124
+          },
+          {
+            "fps": 29.207372343639847,
+            "meanMs": 34.237931034482756,
+            "samples": 145
+          },
+          {
+            "fps": 29.608290320442627,
+            "meanMs": 33.774324325290884,
+            "samples": 148
+          }
+        ],
+        "fps": 29.207372343639847,
+        "meanMs": 34.237931034482756,
+        "p50Ms": 33.30000000000018,
+        "p95Ms": 50.099999999999454,
+        "p99Ms": 50.100000000000364,
+        "longFrames50": 10,
+        "longTasks50": 3,
+        "heapUsed": 3627172,
+        "cpuPerFrame": {
+          "lights": 0.020689655172413793,
+          "shadowGeometry": 0.0033783783783783786,
+          "render": 0.30689656487826644,
+          "particles": 0.010810811777372618,
+          "particlesEffects": 0.02702702702702703,
+          "ai": 0.0041379320210423965,
+          "boss": 0.008064516129032258,
+          "bulletPhysicsCollision": 0.012837835260339686,
+          "update": 0.10067567793098656,
+          "hud": 0.07567567599786294
+        },
+        "particleEmitted": 0,
+        "pool": {
+          "capacity": 650,
+          "created": 0,
+          "free": 0,
+          "reused": 0
+        }
+      },
+      "changePercent": 111.37976692731857
+    },
+    {
+      "scene": "normal",
+      "before": {
+        "runs": [
+          {
+            "fps": 12.977795802117717,
+            "meanMs": 77.05468750223517,
+            "samples": 64
+          },
+          {
+            "fps": 13.829595334146962,
+            "meanMs": 72.30869565148285,
+            "samples": 69
+          },
+          {
+            "fps": 13.88190322931775,
+            "meanMs": 72.03623188267584,
+            "samples": 69
+          }
+        ],
+        "fps": 13.829595334146962,
+        "meanMs": 72.30869565148285,
+        "p50Ms": 83.29999999999927,
+        "p95Ms": 100.09999999999991,
+        "p99Ms": 116.59999999999991,
+        "longFrames50": 43,
+        "longTasks50": 57,
+        "heapUsed": 3913032,
+        "cpuPerFrame": {
+          "lights": 0.0811594223630601,
+          "shadowGeometry": 0.014492753623188406,
+          "render": 0.7463768150495447,
+          "particles": 0.0625000111758709,
+          "particlesEffects": 0.08437500894069672,
+          "lineOfSight": 0.35072465219359467,
+          "ai": 0.6072463505509971,
+          "boss": 0.004347832306571629,
+          "bulletIntegration": 0.01718750223517418,
+          "collisionChecks": 0.12463770396467569,
+          "bulletPhysicsCollision": 0.21014493790225705,
+          "update": 1.0124999955296516,
+          "hud": 0.3275362443232882,
+          "astar": 0.14492753968722577
+        },
+        "particleEmitted": 209,
+        "pool": null
+      },
+      "after": {
+        "runs": [
+          {
+            "fps": 18.025596346640324,
+            "meanMs": 55.47666666719648,
+            "samples": 90
+          },
+          {
+            "fps": 26.1075631599701,
+            "meanMs": 38.30307692344372,
+            "samples": 130
+          },
+          {
+            "fps": 24.420024420024422,
+            "meanMs": 40.949999999999996,
+            "samples": 122
+          }
+        ],
+        "fps": 24.420024420024422,
+        "meanMs": 40.949999999999996,
+        "p50Ms": 33.399999999999864,
+        "p95Ms": 66.80000000000018,
+        "p99Ms": 83.40000000000055,
+        "longFrames50": 23,
+        "longTasks50": 18,
+        "heapUsed": 4254120,
+        "cpuPerFrame": {
+          "lights": 0.054918017543730185,
+          "shadowGeometry": 0.013114753316660396,
+          "render": 0.6139344152857046,
+          "particles": 0.02076923297001765,
+          "particlesEffects": 0.04538461245023287,
+          "lineOfSight": 0.05819672052977515,
+          "ai": 0.23442622090949386,
+          "boss": 0.003333335452609592,
+          "bulletIntegration": 0.024615386816171498,
+          "collisionChecks": 0.05655738564788318,
+          "bulletPhysicsCollision": 0.14016392973602795,
+          "update": 0.47786885206816626,
+          "hud": 0.0663934516125038,
+          "astar": 0.03934425994998119
+        },
+        "particleEmitted": 304,
+        "pool": {
+          "capacity": 650,
+          "created": 57,
+          "free": 29,
+          "reused": 260
+        }
+      },
+      "changePercent": 76.5780113589325
+    },
+    {
+      "scene": "crowd",
+      "before": {
+        "runs": [
+          {
+            "fps": 15.21978572143787,
+            "meanMs": 65.70394736842105,
+            "samples": 76
+          },
+          {
+            "fps": 13.587232058018653,
+            "meanMs": 73.59850746126317,
+            "samples": 67
+          },
+          {
+            "fps": 13.77355477483232,
+            "meanMs": 72.60289855072465,
+            "samples": 69
+          }
+        ],
+        "fps": 13.77355477483232,
+        "meanMs": 72.60289855072465,
+        "p50Ms": 83.29999999999927,
+        "p95Ms": 100.10000000000036,
+        "p99Ms": 116.70000000000073,
+        "longFrames50": 44,
+        "longTasks50": 56,
+        "heapUsed": 3895636,
+        "cpuPerFrame": {
+          "lights": 0.10149251525081805,
+          "shadowGeometry": 0.022388059701492536,
+          "render": 0.9217391394186711,
+          "particles": 0.0539473765774777,
+          "particlesEffects": 0.07236842732680471,
+          "lineOfSight": 0.48208954085164996,
+          "ai": 0.9999999822075687,
+          "boss": 0.004347821940546451,
+          "bulletIntegration": 0.021739130434782608,
+          "collisionChecks": 0.14029852667851234,
+          "bulletPhysicsCollision": 0.23552630449596204,
+          "update": 1.3942028923311096,
+          "astar": 0.3223880511611255,
+          "hud": 0.30724636368129565
+        },
+        "particleEmitted": 426,
+        "pool": null
+      },
+      "after": {
+        "runs": [
+          {
+            "fps": 20.84893629921378,
+            "meanMs": 47.96407767036587,
+            "samples": 103
+          },
+          {
+            "fps": 23.259078058712763,
+            "meanMs": 42.993965516419244,
+            "samples": 116
+          },
+          {
+            "fps": 21.234399728369986,
+            "meanMs": 47.09339622461571,
+            "samples": 106
+          }
+        ],
+        "fps": 21.234399728369986,
+        "meanMs": 47.09339622461571,
+        "p50Ms": 50,
+        "p95Ms": 83.30000000000018,
+        "p99Ms": 100,
+        "longFrames50": 29,
+        "longTasks50": 46,
+        "heapUsed": 4215228,
+        "cpuPerFrame": {
+          "lights": 0.08793103694915771,
+          "shadowGeometry": 0.019417466469181393,
+          "render": 0.8500000013495391,
+          "particles": 0.02233009430968646,
+          "particlesEffects": 0.053773571860115485,
+          "lineOfSight": 0.17264151123334776,
+          "ai": 0.5754717273532219,
+          "boss": 0.002912620896274604,
+          "bulletIntegration": 0.027184467871212266,
+          "collisionChecks": 0.06601941932752295,
+          "bulletPhysicsCollision": 0.17184467454558439,
+          "update": 0.9066037614390535,
+          "astar": 0.12547169541412928,
+          "hud": 0.0834951400756836
+        },
+        "particleEmitted": 475,
+        "pool": {
+          "capacity": 650,
+          "created": 84,
+          "free": 6,
+          "reused": 473
+        }
+      },
+      "changePercent": 54.16789692643811
+    },
+    {
+      "scene": "boss",
+      "before": {
+        "runs": [
+          {
+            "fps": 17.219630378302828,
+            "meanMs": 58.07325581506241,
+            "samples": 86
+          },
+          {
+            "fps": 14.60934998412917,
+            "meanMs": 68.44931506783995,
+            "samples": 73
+          },
+          {
+            "fps": 14.533710132945892,
+            "meanMs": 68.80555555688011,
+            "samples": 72
+          }
+        ],
+        "fps": 14.60934998412917,
+        "meanMs": 68.44931506783995,
+        "p50Ms": 66.80000000000018,
+        "p95Ms": 100,
+        "p99Ms": 100.09999999999945,
+        "longFrames50": 46,
+        "longTasks50": 45,
+        "heapUsed": 3805896,
+        "cpuPerFrame": {
+          "lights": 0.07671232092870425,
+          "shadowGeometry": 0.0041095883878943034,
+          "render": 0.6333333220746782,
+          "particles": 0.04166667991214328,
+          "particlesEffects": 0.05277778704961141,
+          "ai": 0.009589041749091998,
+          "boss": 0.021917800380759044,
+          "bulletIntegration": 0.1109589060691938,
+          "collisionChecks": 0.41369866018425927,
+          "bulletPhysicsCollision": 0.7902777956591712,
+          "update": 0.9625000258286794,
+          "hud": 0.320547926915835
+        },
+        "particleEmitted": 620,
+        "pool": null
+      },
+      "after": {
+        "runs": [
+          {
+            "fps": 24.892100772621312,
+            "meanMs": 40.17338709715874,
+            "samples": 124
+          },
+          {
+            "fps": 25.92287442452503,
+            "meanMs": 38.5759689926177,
+            "samples": 129
+          },
+          {
+            "fps": 21.719457013158102,
+            "meanMs": 46.0416666675497,
+            "samples": 108
+          }
+        ],
+        "fps": 24.892100772621312,
+        "meanMs": 40.17338709715874,
+        "p50Ms": 33.400000000000546,
+        "p95Ms": 83.29999999999927,
+        "p99Ms": 83.40000000000009,
+        "longFrames50": 20,
+        "longTasks50": 29,
+        "heapUsed": 4353168,
+        "cpuPerFrame": {
+          "lights": 0.030232549637787102,
+          "shadowGeometry": 0.007258071053412652,
+          "render": 0.5846774232002997,
+          "particles": 0.024031010709067647,
+          "particlesEffects": 0.04838710638784593,
+          "ai": 0.0064516144414101875,
+          "boss": 0.022580646699474703,
+          "bulletIntegration": 0.0758064370001516,
+          "collisionChecks": 0.1558139490526776,
+          "bulletPhysicsCollision": 0.4419354777182302,
+          "update": 0.5975806482376591,
+          "hud": 0.06693548156369117
+        },
+        "particleEmitted": 882,
+        "pool": {
+          "capacity": 650,
+          "created": 137,
+          "free": 27,
+          "reused": 877
+        }
+      },
+      "changePercent": 70.38472484855782
+    }
+  ]
+}

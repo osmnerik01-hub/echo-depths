@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr">
+  <meta charset="UTF-8" /><meta
+    name="viewport"
+    content="width=device-width"
+  /><title>ECHO DEPTHS — Ignition render laboratuvarı</title
+  ><style>
+    body {
+      margin: 0;
+      background: #040911;
+      color: #c0fce7;
+      font: 13px monospace;
+    }
+    canvas {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+    }
+    aside {
+      position: fixed;
+      top: 12px;
+      left: 12px;
+      background: #07111aed;
+      padding: 12px;
+      max-width: 650px;
+    }
+    a {
+      color: #8cf9e0;
+    }
+    #status {
+      white-space: pre-wrap;
+    }</style
+  ><canvas></canvas>
+  <aside>
+    <a href="?renderer=canvas&scene=normal">Canvas 2D</a> /
+    <a href="?renderer=webgl&scene=normal">WebGL2</a> · Sahne:
+    <a href="?scene=empty">Boş</a> / <a href="?scene=normal">Normal</a> /
+    <a href="?scene=crowd">Kalabalık</a> / <a href="?scene=boss">Boss</a>
+    <button id="measure">5 saniye ölç ve JSON indir</button>
+    <div id="status">Hazırlanıyor…</div>
+  </aside>
+  <script type="module" src="./lab.js"></script>
+</html>

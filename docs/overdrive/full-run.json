@@ -1,0 +1,154 @@
+{
+  "state": "victory",
+  "room": 18,
+  "seed": "ABYSS-07",
+  "elapsed": 307.7749999998844,
+  "biome": 2,
+  "scrap": 1332,
+  "node": {
+    "id": "b2-5-1",
+    "type": "boss",
+    "cleared": true,
+    "next": []
+  },
+  "graph": [
+    {
+      "id": "b2-0-1",
+      "type": "start",
+      "discovered": true,
+      "layer": 0,
+      "lane": 1
+    },
+    {
+      "id": "b2-1-0",
+      "type": "combat",
+      "discovered": true,
+      "layer": 1,
+      "lane": 0
+    },
+    {
+      "id": "b2-1-2",
+      "type": "combat",
+      "discovered": true,
+      "layer": 1,
+      "lane": 2
+    },
+    {
+      "id": "b2-2-0",
+      "type": "treasure",
+      "discovered": true,
+      "layer": 2,
+      "lane": 0
+    },
+    {
+      "id": "b2-2-1",
+      "type": "repair",
+      "discovered": true,
+      "layer": 2,
+      "lane": 1
+    },
+    {
+      "id": "b2-2-2",
+      "type": "unknown",
+      "discovered": false,
+      "layer": 2,
+      "lane": 2
+    },
+    {
+      "id": "b2-3-0",
+      "type": "shop",
+      "discovered": true,
+      "layer": 3,
+      "lane": 0
+    },
+    {
+      "id": "b2-3-2",
+      "type": "elite",
+      "discovered": true,
+      "layer": 3,
+      "lane": 2
+    },
+    {
+      "id": "b2-4-0",
+      "type": "combat",
+      "discovered": true,
+      "layer": 4,
+      "lane": 0
+    },
+    {
+      "id": "b2-4-2",
+      "type": "repair",
+      "discovered": true,
+      "layer": 4,
+      "lane": 2
+    },
+    {
+      "id": "b2-5-1",
+      "type": "boss",
+      "discovered": true,
+      "layer": 5,
+      "lane": 1
+    }
+  ],
+  "boss": {
+    "id": "hollow",
+    "hp": -41.330000000054554,
+    "maxHp": 3432.96,
+    "phase": 3
+  },
+  "stats": {
+    "roomsCleared": 18,
+    "bosses": 3,
+    "damage": 18113.779226225302,
+    "weaponsUsed": [
+      "pulse",
+      "scatter",
+      "rail",
+      "arc",
+      "nova"
+    ],
+    "scrapEarned": 1973,
+    "scrapSpent": 641
+  },
+  "score": 41820,
+  "remaining": 0,
+  "player": {
+    "x": 837.3170909714769,
+    "y": 620.8741688126424,
+    "hp": 170,
+    "weapon": "pulse",
+    "inventory": [
+      "pulse",
+      "scatter",
+      "rail",
+      "arc",
+      "nova"
+    ],
+    "dashCd": 0
+  },
+  "quality": "MEDIUM",
+  "render": {
+    "dpr": 1.5,
+    "pixels": [
+      1920,
+      1200
+    ],
+    "cachedRoom": 18,
+    "cacheMatches": true
+  },
+  "particles": 0,
+  "pool": {
+    "capacity": 650,
+    "created": 100,
+    "free": 100,
+    "reused": 13114
+  },
+  "bullets": 0,
+  "enemies": [],
+  "performance": {
+    "samples": 149,
+    "frameMeanMs": 85.23489932757896,
+    "frameP95Ms": 366.59999999999945,
+    "cpuMeanMs": 1.3697986522776968
+  }
+}

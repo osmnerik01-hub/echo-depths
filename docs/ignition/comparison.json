@@ -1,0 +1,247 @@
+{
+  "method": "Median across three matched 5s captures, after 1s warmup; renderer order alternates. meanFps=1000/mean(frame); medianFps=1000/median(frame). Synthetic shared-atlas render-only scenes; NOT full game renderer comparison.",
+  "browser": "156.0.8078.4",
+  "gpu": [
+    {
+      "vendorId": 65535,
+      "deviceId": 65535,
+      "subSysId": 0,
+      "revision": 0,
+      "vendorString": "Google Inc. (Google)",
+      "deviceString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+      "driverVendor": "SwANGLE",
+      "driverVersion": "5.0.0"
+    }
+  ],
+  "features": {
+    "2d_canvas": "unavailable_software",
+    "direct_rendering_display_compositor": "disabled_off_ok",
+    "gpu_compositing": "disabled_software",
+    "multiple_raster_threads": "enabled_on",
+    "opengl": "disabled_off",
+    "rasterization": "disabled_software",
+    "raw_draw": "disabled_off_ok",
+    "skia_graphite": "disabled_off",
+    "trees_in_viz": "disabled_off",
+    "video_decode": "disabled_software",
+    "video_encode": "disabled_software",
+    "webgl": "unavailable_software",
+    "webgpu": "unavailable_software",
+    "webnn": "unavailable_software"
+  },
+  "viewport": [
+    1280,
+    800
+  ],
+  "dpr": 2,
+  "rows": [
+    {
+      "scene": "empty",
+      "canvas": {
+        "meanFps": 22.551092318534177,
+        "medianFps": 20.04008016032042,
+        "p95Ms": 66.70000000000027,
+        "renderCpuMeanMs": 0.11517857015132904,
+        "sceneCpuMeanMs": 0.021929818287230375,
+        "taskCpuMsPerSecond": 999.1014184313236,
+        "scriptMsPerSecond": 4.148721952929451,
+        "heapBefore": 2147176,
+        "heapUsed": 2472204,
+        "runs": [
+          20.00080811345913,
+          22.87686627066945,
+          22.551092318534177
+        ],
+        "active": "Canvas 2D sprite batch",
+        "counts": {
+          "enemies": 0,
+          "bullets": 0,
+          "particles": 0,
+          "lights": 2
+        },
+        "quads": 6
+      },
+      "webgl": {
+        "meanFps": 11.839781666399102,
+        "medianFps": 12.004801920768282,
+        "p95Ms": 116.59999999999991,
+        "renderCpuMeanMs": 0.111864401122271,
+        "sceneCpuMeanMs": 0.025806450074718844,
+        "taskCpuMsPerSecond": 999.4930305565254,
+        "scriptMsPerSecond": 2.5611783519355056,
+        "heapBefore": 2162068,
+        "heapUsed": 2694956,
+        "runs": [
+          11.839781666399102,
+          12.483640390617134,
+          11.351658152923052
+        ],
+        "active": "WebGL2 batched atlas",
+        "counts": {
+          "enemies": 0,
+          "bullets": 0,
+          "particles": 0,
+          "lights": 2
+        },
+        "quads": 6
+      },
+      "changePercent": -47.49796817306148
+    },
+    {
+      "scene": "normal",
+      "canvas": {
+        "meanFps": 14.698775773195878,
+        "medianFps": 12.004801920768411,
+        "p95Ms": 100,
+        "renderCpuMeanMs": 0.5438355974955101,
+        "sceneCpuMeanMs": 0.024657536859381688,
+        "taskCpuMsPerSecond": 999.3053198873922,
+        "scriptMsPerSecond": 9.17074328230555,
+        "heapBefore": 2187108,
+        "heapUsed": 2809672,
+        "runs": [
+          14.2957817376422,
+          14.698775773195878,
+          14.748070629116327
+        ],
+        "active": "Canvas 2D sprite batch",
+        "counts": {
+          "enemies": 6,
+          "bullets": 24,
+          "particles": 60,
+          "lights": 8
+        },
+        "quads": 102
+      },
+      "webgl": {
+        "meanFps": 10.435061807673785,
+        "medianFps": 10,
+        "p95Ms": 116.59999999999991,
+        "renderCpuMeanMs": 0.26792452920157955,
+        "sceneCpuMeanMs": 0.04693875994001116,
+        "taskCpuMsPerSecond": 999.5647657015502,
+        "scriptMsPerSecond": 4.066414015298474,
+        "heapBefore": 2267032,
+        "heapUsed": 2570236,
+        "runs": [
+          9.83303901107722,
+          10.707287015899313,
+          10.435061807673785
+        ],
+        "active": "WebGL2 batched atlas",
+        "counts": {
+          "enemies": 6,
+          "bullets": 24,
+          "particles": 60,
+          "lights": 8
+        },
+        "quads": 102
+      },
+      "changePercent": -29.0072726552999
+    },
+    {
+      "scene": "crowd",
+      "canvas": {
+        "meanFps": 10.400416016640666,
+        "medianFps": 10,
+        "p95Ms": 133.4000000000001,
+        "renderCpuMeanMs": 1.3038461529291594,
+        "sceneCpuMeanMs": 0.047368413523623816,
+        "taskCpuMsPerSecond": 999.6629892381718,
+        "scriptMsPerSecond": 14.853615250674974,
+        "heapBefore": 2220704,
+        "heapUsed": 2590776,
+        "runs": [
+          9.400376015040601,
+          11.476895197825428,
+          10.400416016640666
+        ],
+        "active": "Canvas 2D sprite batch",
+        "counts": {
+          "enemies": 12,
+          "bullets": 80,
+          "particles": 180,
+          "lights": 14
+        },
+        "quads": 290
+      },
+      "webgl": {
+        "meanFps": 8.746237084045237,
+        "medianFps": 8.576329331046285,
+        "p95Ms": 133.39999999999964,
+        "renderCpuMeanMs": 0.3930232469425645,
+        "sceneCpuMeanMs": 0.07906976965970772,
+        "taskCpuMsPerSecond": 999.6286775268541,
+        "scriptMsPerSecond": 5.0095728660719265,
+        "heapBefore": 2423936,
+        "heapUsed": 2694336,
+        "runs": [
+          8.456659619450317,
+          8.746237084045237,
+          9.15285263907251
+        ],
+        "active": "WebGL2 batched atlas",
+        "counts": {
+          "enemies": 12,
+          "bullets": 80,
+          "particles": 180,
+          "lights": 14
+        },
+        "quads": 290
+      },
+      "changePercent": -15.90493043690504
+    },
+    {
+      "scene": "boss",
+      "canvas": {
+        "meanFps": 9.800392015680629,
+        "medianFps": 8.576329331046319,
+        "p95Ms": 150,
+        "renderCpuMeanMs": 1.7693877560751778,
+        "sceneCpuMeanMs": 0.07592589766890914,
+        "taskCpuMsPerSecond": 999.6836526525103,
+        "scriptMsPerSecond": 18.108787808378548,
+        "heapBefore": 2237024,
+        "heapUsed": 2589584,
+        "runs": [
+          9.400376015040601,
+          9.800392015680629,
+          10.83641033873816
+        ],
+        "active": "Canvas 2D sprite batch",
+        "counts": {
+          "enemies": 1,
+          "bullets": 120,
+          "particles": 240,
+          "lights": 10
+        },
+        "quads": 375
+      },
+      "webgl": {
+        "meanFps": 9.400376015040603,
+        "medianFps": 10,
+        "p95Ms": 133.4000000000001,
+        "renderCpuMeanMs": 0.453191488347155,
+        "sceneCpuMeanMs": 0.11063828366868039,
+        "taskCpuMsPerSecond": 999.5947435089981,
+        "scriptMsPerSecond": 5.722311293386064,
+        "heapBefore": 2495284,
+        "heapUsed": 2446536,
+        "runs": [
+          8.628993417884091,
+          9.400376015040603,
+          10.800216004320085
+        ],
+        "active": "WebGL2 batched atlas",
+        "counts": {
+          "enemies": 1,
+          "bullets": 120,
+          "particles": 240,
+          "lights": 10
+        },
+        "quads": 375
+      },
+      "changePercent": -4.081632653061229
+    }
+  ]
+}

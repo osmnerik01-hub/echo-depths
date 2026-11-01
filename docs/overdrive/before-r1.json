@@ -1,0 +1,2270 @@
+{
+  "phase": "before",
+  "duration": 5000,
+  "chromium": "156.0.8078.4",
+  "hardware": {
+    "gpu": {
+      "devices": [
+        {
+          "vendorId": 65535,
+          "deviceId": 65535,
+          "subSysId": 0,
+          "revision": 0,
+          "vendorString": "Google Inc. (Google)",
+          "deviceString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+          "driverVendor": "SwANGLE",
+          "driverVersion": "5.0.0"
+        }
+      ],
+      "auxAttributes": {
+        "amdSwitchable": false,
+        "bgra8OverlaySupport": "NONE",
+        "canSupportThreadedTextureMailbox": false,
+        "directComposition": false,
+        "directMLFeatureLevel": "Not supported",
+        "directRenderingVersion": "",
+        "displayType": "ANGLE_SWIFTSHADER",
+        "dx12FeatureLevel": "Not supported",
+        "glExtensions": "GL_AMD_performance_monitor GL_ANGLE_base_vertex_base_instance_shader_builtin GL_ANGLE_blob_cache GL_ANGLE_client_arrays GL_ANGLE_clip_cull_distance GL_ANGLE_compressed_texture_etc GL_ANGLE_copy_texture_3d GL_ANGLE_depth_texture GL_ANGLE_framebuffer_blit GL_ANGLE_framebuffer_multisample GL_ANGLE_get_image GL_ANGLE_get_serialized_context_string GL_ANGLE_get_tex_level_parameter GL_ANGLE_instanced_arrays GL_ANGLE_memory_object_flags GL_ANGLE_memory_size GL_ANGLE_multi_draw GL_ANGLE_pack_reverse_row_order GL_ANGLE_polygon_mode GL_ANGLE_program_binary_readiness_query GL_ANGLE_program_cache_control GL_ANGLE_read_only_depth_stencil_feedback_loops GL_ANGLE_relaxed_vertex_attribute_type GL_ANGLE_renderability_validation GL_ANGLE_request_extension GL_ANGLE_rgbx_internal_format GL_ANGLE_robust_client_memory GL_ANGLE_robust_fragment_shader_output GL_ANGLE_robust_resource_initialization GL_ANGLE_shader_pixel_local_storage GL_ANGLE_shader_pixel_local_storage_coherent GL_ANGLE_stencil_texturing GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ANGLE_texture_multisample GL_ANGLE_texture_usage GL_ANGLE_translated_shader_source GL_ANGLE_vulkan_image GL_ANGLE_yuv_internal_format GL_APPLE_clip_distance GL_ARM_rgba8 GL_ARM_shader_framebuffer_fetch GL_CHROMIUM_bind_generates_resource GL_CHROMIUM_bind_uniform_location GL_CHROMIUM_copy_compressed_texture GL_CHROMIUM_copy_texture GL_CHROMIUM_lose_context GL_EXT_EGL_image_array GL_EXT_EGL_image_external_wrap_modes GL_EXT_EGL_image_storage GL_EXT_base_instance GL_EXT_blend_minmax GL_EXT_buffer_storage GL_EXT_clear_texture GL_EXT_clip_control GL_EXT_clip_cull_distance GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_compressed_ETC1_RGB8_sub_texture GL_EXT_conservative_depth GL_EXT_copy_image GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_clamp GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_map_buffer_range GL_EXT_memory_object GL_EXT_occlusion_query_boolean GL_EXT_polygon_offset_clamp GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_semaphore GL_EXT_separate_shader_objects GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_non_constant_global_initializers GL_EXT_shader_texture_lod GL_EXT_shadow_samplers GL_EXT_texture_border_clamp GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_rg GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_storage GL_EXT_texture_type_2_10_10_10_REV GL_EXT_unpack_subimage GL_KHR_blend_equation_advanced GL_KHR_debug GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_NV_fence GL_NV_framebuffer_blit GL_NV_pack_subimage GL_NV_pixel_buffer_object GL_NV_polygon_mode GL_NV_read_depth GL_NV_read_depth_stencil GL_NV_read_stencil GL_NV_shader_noperspective_interpolation GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_paletted_texture GL_OES_copy_image GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_get_program_binary GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_required_internalformat GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OVR_multiview GL_OVR_multiview2 GL_QCOM_texture_lod_bias ",
+        "glImplementationParts": "(gl=egl-angle,angle=swiftshader)",
+        "glRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+        "glResetNotificationStrategy": 33362,
+        "glVendor": "Google Inc. (Google)",
+        "glVersion": "OpenGL ES 3.0 (ANGLE 2.1.28967 git hash: dfeede58b618)",
+        "glWsExtensions": "EGL_EXT_create_context_robustness EGL_ANGLE_surface_orientation EGL_KHR_create_context EGL_KHR_image EGL_KHR_image_base EGL_EXT_image_gl_colorspace EGL_KHR_gl_colorspace EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_get_all_proc_addresses EGL_KHR_fence_sync EGL_KHR_wait_sync EGL_ANGLE_create_context_webgl_compatibility EGL_CHROMIUM_create_context_bind_generates_resource EGL_KHR_swap_buffers_with_damage EGL_EXT_pixel_format_float EGL_KHR_surfaceless_context EGL_ANGLE_display_texture_share_group EGL_ANGLE_display_semaphore_share_group EGL_ANGLE_create_context_client_arrays EGL_ANGLE_program_cache_control EGL_ANGLE_robust_resource_initialization EGL_ANGLE_create_context_extensions_enabled EGL_ANDROID_blob_cache EGL_ANDROID_recordable EGL_ANGLE_create_context_backwards_compatible EGL_KHR_no_config_context EGL_IMG_context_priority EGL_KHR_create_context_no_error EGL_KHR_reusable_sync EGL_EXT_buffer_age EGL_ANGLE_create_surface_swap_interval EGL_ANGLE_vulkan_image EGL_KHR_partial_update EGL_ANGLE_global_fence_sync EGL_ANGLE_memory_usage_report ",
+        "glWsVendor": "Google Inc. (Google)",
+        "glWsVersion": "1.5 (ANGLE 2.1.28967 git hash: dfeede58b618)",
+        "inProcessGpu": false,
+        "initializationTime": 1.569631,
+        "isAsan": false,
+        "isClangCoverage": false,
+        "jpegDecodeAcceleratorSupported": false,
+        "maxMsaaSamples": "4",
+        "nv12OverlaySupport": "NONE",
+        "optimus": false,
+        "p010OverlaySupport": "NONE",
+        "passthroughCmdDecoder": true,
+        "pixelShaderVersion": "3.00",
+        "processCrashCount": 0,
+        "rgb10a2OverlaySupport": "NONE",
+        "sandboxed": false,
+        "skiaBackendType": "None",
+        "subpixelFontRendering": true,
+        "supportsD3dSharedImages": false,
+        "supportsDirectML": false,
+        "supportsDx12": false,
+        "supportsOverlays": false,
+        "supportsVulkan": false,
+        "targetCpuBits": 64,
+        "vertexShaderVersion": "3.00",
+        "visibilityCallbackCallCount": 0,
+        "vulkanVersion": "Not supported",
+        "yuy2OverlaySupport": "NONE"
+      },
+      "featureStatus": {
+        "2d_canvas": "unavailable_software",
+        "direct_rendering_display_compositor": "disabled_off_ok",
+        "gpu_compositing": "disabled_software",
+        "multiple_raster_threads": "enabled_on",
+        "opengl": "disabled_off",
+        "rasterization": "disabled_software",
+        "raw_draw": "disabled_off_ok",
+        "skia_graphite": "disabled_off",
+        "trees_in_viz": "disabled_off",
+        "video_decode": "disabled_software",
+        "video_encode": "disabled_software",
+        "webgl": "unavailable_software",
+        "webgpu": "unavailable_software",
+        "webnn": "unavailable_software"
+      },
+      "driverBugWorkarounds": [],
+      "videoDecoding": [],
+      "videoEncoding": []
+    },
+    "modelName": "",
+    "modelVersion": "",
+    "commandLine": "\"PRIVATE_LOCAL_PATH" --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=\"PRIVATE_LOCAL_PATH" --remote-debugging-pipe --no-startup-window --use-gl=angle --use-angle=swiftshader-webgl --allow-pre-commit-input --disable-gpu-process-for-dx12-info-collection --disable-cookie-encryption"
+  },
+  "results": [
+    {
+      "phase": "before",
+      "scene": "empty",
+      "context": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "seed": "OVERDRIVE-V1",
+      "profile": "HIGH",
+      "viewport": [
+        1280,
+        800
+      ],
+      "dpr": 2,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "samples": 56,
+      "fps": 11.29806722339129,
+      "meanMs": 88.51071428656577,
+      "p50Ms": 99.89999999999964,
+      "p95Ms": 116.79999999999973,
+      "p99Ms": 133.4000000000001,
+      "longFrames50": 51,
+      "overBudget167": 55,
+      "particleEmitted": 0,
+      "cpuTotalsMs": {
+        "lights": 5.500000953674316,
+        "shadowGeometry": 0.40000033378601074,
+        "render": 32.19999957084656,
+        "particles": 0.6000001430511475,
+        "particlesEffects": 1.9000000953674316,
+        "ai": 0.6000006198883057,
+        "boss": 0.09999990463256836,
+        "bulletPhysicsCollision": 0.6999998092651367,
+        "update": 7.799999952316284,
+        "hud": 27.100000143051147
+      },
+      "cpuCalls": {
+        "lights": 560,
+        "shadowGeometry": 56,
+        "render": 56,
+        "particles": 328,
+        "particlesEffects": 328,
+        "ai": 328,
+        "boss": 328,
+        "bulletPhysicsCollision": 328,
+        "update": 328,
+        "hud": 48
+      },
+      "peak": {
+        "enemies": 0,
+        "bullets": 0,
+        "particles": 0
+      },
+      "heap": {
+        "used": 10000000,
+        "total": 10000000
+      },
+      "particlesPool": null,
+      "cdpBefore": [
+        {
+          "name": "Timestamp",
+          "value": 1373111.837997
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 4
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 1
+        },
+        {
+          "name": "Frames",
+          "value": 1
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 24
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 100
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 107
+        },
+        {
+          "name": "Resources",
+          "value": 0
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 4
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 1
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 0
+        },
+        {
+          "name": "LayoutCount",
+          "value": 3
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 3
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.0023
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.000824
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.000048
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.003777
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 0.246503
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 0.239554
+        },
+        {
+          "name": "ThreadTime",
+          "value": 1.370671
+        },
+        {
+          "name": "ProcessTime",
+          "value": 1.51005
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 2460160
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 3239936
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 0
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 1373110.406883
+        },
+        {
+          "name": "NavigationStart",
+          "value": 1373110.355718
+        }
+      ],
+      "longTasks50": 56,
+      "traceTop": [
+        [
+          "RunTask",
+          {
+            "ms": 5735.06600000001,
+            "count": 2867
+          }
+        ],
+        [
+          "ProxyMain::BeginMainFrame",
+          {
+            "ms": 5041.100999999999,
+            "count": 56
+          }
+        ],
+        [
+          "Commit",
+          {
+            "ms": 4863.172,
+            "count": 56
+          }
+        ],
+        [
+          "LayerTreeHost::DoUpdateLayers",
+          {
+            "ms": 4855.912000000001,
+            "count": 56
+          }
+        ],
+        [
+          "Canvas2DResourceProvider::ProduceCanvasResource",
+          {
+            "ms": 115.72800000000002,
+            "count": 57
+          }
+        ],
+        [
+          "WebFrameWidgetImpl::UpdateLifecycle",
+          {
+            "ms": 98.734,
+            "count": 57
+          }
+        ],
+        [
+          "WebFrameWidgetImpl::BeginMainFrame",
+          {
+            "ms": 80.564,
+            "count": 57
+          }
+        ],
+        [
+          "Blink.Animate.UpdateTime",
+          {
+            "ms": 80.026,
+            "count": 57
+          }
+        ],
+        [
+          "PageAnimator::serviceScriptedAnimations",
+          {
+            "ms": 79.62499999999999,
+            "count": 57
+          }
+        ],
+        [
+          "FrameRequestCallbackCollection::ExecuteFrameCallbacks",
+          {
+            "ms": 77.98100000000001,
+            "count": 57
+          }
+        ],
+        [
+          "FireAnimationFrame",
+          {
+            "ms": 77.75199999999997,
+            "count": 57
+          }
+        ],
+        [
+          "AsyncTask Run",
+          {
+            "ms": 77.27399999999997,
+            "count": 57
+          }
+        ],
+        [
+          "FunctionCall",
+          {
+            "ms": 75.249,
+            "count": 57
+          }
+        ],
+        [
+          "LocalFrameView::RunStyleAndLayoutLifecyclePhases",
+          {
+            "ms": 55.784,
+            "count": 57
+          }
+        ],
+        [
+          "LocalFrameView::UpdateStyleAndLayout",
+          {
+            "ms": 55.01799999999998,
+            "count": 57
+          }
+        ],
+        [
+          "Blink.Layout.UpdateTime",
+          {
+            "ms": 39.72000000000001,
+            "count": 49
+          }
+        ],
+        [
+          "LocalFrameView::layout",
+          {
+            "ms": 38.504999999999995,
+            "count": 49
+          }
+        ],
+        [
+          "Layout",
+          {
+            "ms": 38.298999999999985,
+            "count": 49
+          }
+        ],
+        [
+          "LocalFrameView::performLayout",
+          {
+            "ms": 37.548,
+            "count": 49
+          }
+        ],
+        [
+          "RasterizerTaskImpl::RunOnWorkerThread",
+          {
+            "ms": 30.358999999999995,
+            "count": 192
+          }
+        ],
+        [
+          "RasterTask",
+          {
+            "ms": 27.778000000000006,
+            "count": 192
+          }
+        ],
+        [
+          "LocalFrameView::RunPaintLifecyclePhase",
+          {
+            "ms": 27.445999999999998,
+            "count": 57
+          }
+        ],
+        [
+          "ZeroCopyRasterBuffer::Playback",
+          {
+            "ms": 26.651000000000003,
+            "count": 192
+          }
+        ],
+        [
+          "Paint",
+          {
+            "ms": 22.874999999999996,
+            "count": 147
+          }
+        ],
+        [
+          "ProxyImpl::ReadyToCommit",
+          {
+            "ms": 19.148,
+            "count": 57
+          }
+        ]
+      ],
+      "cdpMetrics": [
+        {
+          "name": "Timestamp",
+          "value": 1373118.07826
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 4
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 1
+        },
+        {
+          "name": "Frames",
+          "value": 1
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 24
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 2873
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 2635
+        },
+        {
+          "name": "Resources",
+          "value": 0
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 4
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 1
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 0
+        },
+        {
+          "name": "LayoutCount",
+          "value": 62
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 62
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.049012
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.016435
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.003993
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.090931
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 6.482579
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 6.322208
+        },
+        {
+          "name": "ThreadTime",
+          "value": 7.545384
+        },
+        {
+          "name": "ProcessTime",
+          "value": 7.96028
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 2667820
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 3502080
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 0
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 1373110.406883
+        },
+        {
+          "name": "NavigationStart",
+          "value": 1373110.355718
+        }
+      ],
+      "errors": [],
+      "durationMs": 5000
+    },
+    {
+      "phase": "before",
+      "scene": "normal",
+      "context": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "seed": "OVERDRIVE-V1",
+      "profile": "HIGH",
+      "viewport": [
+        1280,
+        800
+      ],
+      "dpr": 2,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "samples": 59,
+      "fps": 11.967545638945232,
+      "meanMs": 83.55932203389831,
+      "p50Ms": 83.30000000000018,
+      "p95Ms": 116.70000000000073,
+      "p99Ms": 133.30000000000018,
+      "longFrames50": 46,
+      "overBudget167": 58,
+      "particleEmitted": 193,
+      "cpuTotalsMs": {
+        "lights": 7.200000286102295,
+        "shadowGeometry": 1.0000004768371582,
+        "render": 54.00000071525574,
+        "particles": 4.200000286102295,
+        "particlesEffects": 5.800000905990601,
+        "lineOfSight": 28.100001573562622,
+        "ai": 49.00000071525574,
+        "boss": 0.2999997138977051,
+        "bulletIntegration": 1.7999989986419678,
+        "collisionChecks": 9.600000143051147,
+        "bulletPhysicsCollision": 15.899999380111694,
+        "update": 76.60000038146973,
+        "astar": 14.499999761581421,
+        "hud": 24.199998378753662
+      },
+      "cpuCalls": {
+        "lights": 965,
+        "shadowGeometry": 413,
+        "render": 59,
+        "particles": 347,
+        "particlesEffects": 347,
+        "lineOfSight": 5286,
+        "ai": 327,
+        "boss": 327,
+        "bulletIntegration": 936,
+        "collisionChecks": 936,
+        "bulletPhysicsCollision": 327,
+        "update": 347,
+        "astar": 9,
+        "hud": 46
+      },
+      "peak": {
+        "enemies": 6,
+        "bullets": 5,
+        "particles": 52
+      },
+      "heap": {
+        "used": 10000000,
+        "total": 10000000
+      },
+      "particlesPool": null,
+      "cdpBefore": [
+        {
+          "name": "Timestamp",
+          "value": 1373119.634618
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 4
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 1
+        },
+        {
+          "name": "Frames",
+          "value": 1
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 24
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 53
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 60
+        },
+        {
+          "name": "Resources",
+          "value": 0
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 4
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 1
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 3
+        },
+        {
+          "name": "LayoutCount",
+          "value": 1
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 1
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.000392
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.000127
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.000027
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.004544
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 0.118626
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 0.113536
+        },
+        {
+          "name": "ThreadTime",
+          "value": 0.117322
+        },
+        {
+          "name": "ProcessTime",
+          "value": 1.548436
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 3243332
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 3764224
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 0
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 1373118.312297
+        },
+        {
+          "name": "NavigationStart",
+          "value": 1373118.276825
+        }
+      ],
+      "longTasks50": 56,
+      "traceTop": [
+        [
+          "RunTask",
+          {
+            "ms": 5719.246000000019,
+            "count": 2963
+          }
+        ],
+        [
+          "ProxyMain::BeginMainFrame",
+          {
+            "ms": 5032.921,
+            "count": 59
+          }
+        ],
+        [
+          "Commit",
+          {
+            "ms": 4773.6489999999985,
+            "count": 59
+          }
+        ],
+        [
+          "LayerTreeHost::DoUpdateLayers",
+          {
+            "ms": 4766.261,
+            "count": 59
+          }
+        ],
+        [
+          "WebFrameWidgetImpl::BeginMainFrame",
+          {
+            "ms": 171.17499999999998,
+            "count": 60
+          }
+        ],
+        [
+          "Blink.Animate.UpdateTime",
+          {
+            "ms": 170.65400000000002,
+            "count": 60
+          }
+        ],
+        [
+          "PageAnimator::serviceScriptedAnimations",
+          {
+            "ms": 170.195,
+            "count": 60
+          }
+        ],
+        [
+          "FrameRequestCallbackCollection::ExecuteFrameCallbacks",
+          {
+            "ms": 168.45200000000003,
+            "count": 60
+          }
+        ],
+        [
+          "FireAnimationFrame",
+          {
+            "ms": 168.228,
+            "count": 60
+          }
+        ],
+        [
+          "AsyncTask Run",
+          {
+            "ms": 167.803,
+            "count": 60
+          }
+        ],
+        [
+          "FunctionCall",
+          {
+            "ms": 165.53500000000003,
+            "count": 60
+          }
+        ],
+        [
+          "Canvas2DResourceProvider::ProduceCanvasResource",
+          {
+            "ms": 131.23,
+            "count": 60
+          }
+        ],
+        [
+          "WebFrameWidgetImpl::UpdateLifecycle",
+          {
+            "ms": 89.758,
+            "count": 60
+          }
+        ],
+        [
+          "LocalFrameView::RunStyleAndLayoutLifecyclePhases",
+          {
+            "ms": 50.945999999999984,
+            "count": 60
+          }
+        ],
+        [
+          "LocalFrameView::UpdateStyleAndLayout",
+          {
+            "ms": 50.204,
+            "count": 60
+          }
+        ],
+        [
+          "Blink.Layout.UpdateTime",
+          {
+            "ms": 36.35300000000001,
+            "count": 47
+          }
+        ],
+        [
+          "LocalFrameView::layout",
+          {
+            "ms": 35.234,
+            "count": 47
+          }
+        ],
+        [
+          "Layout",
+          {
+            "ms": 35.03099999999999,
+            "count": 47
+          }
+        ],
+        [
+          "LocalFrameView::performLayout",
+          {
+            "ms": 34.336000000000006,
+            "count": 47
+          }
+        ],
+        [
+          "RasterizerTaskImpl::RunOnWorkerThread",
+          {
+            "ms": 31.32699999999999,
+            "count": 188
+          }
+        ],
+        [
+          "RasterTask",
+          {
+            "ms": 28.596,
+            "count": 188
+          }
+        ],
+        [
+          "ZeroCopyRasterBuffer::Playback",
+          {
+            "ms": 27.573,
+            "count": 188
+          }
+        ],
+        [
+          "LocalFrameView::RunPaintLifecyclePhase",
+          {
+            "ms": 24.259,
+            "count": 60
+          }
+        ],
+        [
+          "Paint",
+          {
+            "ms": 20.14400000000001,
+            "count": 141
+          }
+        ],
+        [
+          "ProxyImpl::ReadyToCommit",
+          {
+            "ms": 19.501999999999995,
+            "count": 60
+          }
+        ]
+      ],
+      "cdpMetrics": [
+        {
+          "name": "Timestamp",
+          "value": 1373125.514938
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 4
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 1
+        },
+        {
+          "name": "Frames",
+          "value": 1
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 24
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 2591
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 2363
+        },
+        {
+          "name": "Resources",
+          "value": 0
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 4
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 1
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 3
+        },
+        {
+          "name": "LayoutCount",
+          "value": 55
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 55
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.040749
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.01385
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.003941
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.184731
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 5.994816
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 5.751545
+        },
+        {
+          "name": "ThreadTime",
+          "value": 5.930232
+        },
+        {
+          "name": "ProcessTime",
+          "value": 7.681068
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 4138304
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 6123520
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 0
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 1373118.312297
+        },
+        {
+          "name": "NavigationStart",
+          "value": 1373118.276825
+        }
+      ],
+      "errors": [],
+      "durationMs": 5000
+    },
+    {
+      "phase": "before",
+      "scene": "crowd",
+      "context": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "seed": "OVERDRIVE-V1",
+      "profile": "HIGH",
+      "viewport": [
+        1280,
+        800
+      ],
+      "dpr": 2,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "samples": 68,
+      "fps": 13.833228228191151,
+      "meanMs": 72.28970588095048,
+      "p50Ms": 66.70000000000073,
+      "p95Ms": 116.69999999999982,
+      "p99Ms": 133.30000000000018,
+      "longFrames50": 44,
+      "overBudget167": 67,
+      "particleEmitted": 414,
+      "cpuTotalsMs": {
+        "lights": 8.09999942779541,
+        "shadowGeometry": 0.5999999046325684,
+        "render": 61.09999942779541,
+        "particles": 4.700001239776611,
+        "particlesEffects": 6.600001811981201,
+        "lineOfSight": 33.200000047683716,
+        "astar": 21.399999380111694,
+        "ai": 67.30000138282776,
+        "boss": 0.19999980926513672,
+        "bulletIntegration": 1.3000004291534424,
+        "collisionChecks": 12.499999523162842,
+        "bulletPhysicsCollision": 17.999999046325684,
+        "update": 96.20000195503235,
+        "hud": 20.800000190734863
+      },
+      "cpuCalls": {
+        "lights": 1516,
+        "shadowGeometry": 884,
+        "render": 68,
+        "particles": 397,
+        "particlesEffects": 397,
+        "lineOfSight": 14243,
+        "astar": 24,
+        "ai": 375,
+        "boss": 375,
+        "bulletIntegration": 1350,
+        "collisionChecks": 1350,
+        "bulletPhysicsCollision": 375,
+        "update": 397,
+        "hud": 47
+      },
+      "peak": {
+        "enemies": 12,
+        "bullets": 7,
+        "particles": 100
+      },
+      "heap": {
+        "used": 10000000,
+        "total": 10000000
+      },
+      "particlesPool": null,
+      "cdpBefore": [
+        {
+          "name": "Timestamp",
+          "value": 1373126.953497
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 4
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 1
+        },
+        {
+          "name": "Frames",
+          "value": 1
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 24
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 53
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 60
+        },
+        {
+          "name": "Resources",
+          "value": 0
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 4
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 1
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 8
+        },
+        {
+          "name": "LayoutCount",
+          "value": 1
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 1
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.000695
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.000228
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.00003
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.005589
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 0.154891
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 0.148349
+        },
+        {
+          "name": "ThreadTime",
+          "value": 0.154288
+        },
+        {
+          "name": "ProcessTime",
+          "value": 1.46429
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 3604152
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 4288512
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 0
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 1373125.695427
+        },
+        {
+          "name": "NavigationStart",
+          "value": 1373125.669624
+        }
+      ],
+      "longTasks50": 53,
+      "traceTop": [
+        [
+          "RunTask",
+          {
+            "ms": 5700.963000000025,
+            "count": 3237
+          }
+        ],
+        [
+          "ProxyMain::BeginMainFrame",
+          {
+            "ms": 5017.860000000001,
+            "count": 68
+          }
+        ],
+        [
+          "Commit",
+          {
+            "ms": 4812.922999999999,
+            "count": 69
+          }
+        ],
+        [
+          "LayerTreeHost::DoUpdateLayers",
+          {
+            "ms": 4805.418,
+            "count": 69
+          }
+        ],
+        [
+          "WebFrameWidgetImpl::BeginMainFrame",
+          {
+            "ms": 196.065,
+            "count": 69
+          }
+        ],
+        [
+          "Blink.Animate.UpdateTime",
+          {
+            "ms": 195.551,
+            "count": 69
+          }
+        ],
+        [
+          "PageAnimator::serviceScriptedAnimations",
+          {
+            "ms": 195.05800000000002,
+            "count": 69
+          }
+        ],
+        [
+          "FrameRequestCallbackCollection::ExecuteFrameCallbacks",
+          {
+            "ms": 193.422,
+            "count": 69
+          }
+        ],
+        [
+          "FireAnimationFrame",
+          {
+            "ms": 193.16200000000003,
+            "count": 69
+          }
+        ],
+        [
+          "AsyncTask Run",
+          {
+            "ms": 192.678,
+            "count": 69
+          }
+        ],
+        [
+          "FunctionCall",
+          {
+            "ms": 190.431,
+            "count": 69
+          }
+        ],
+        [
+          "Canvas2DResourceProvider::ProduceCanvasResource",
+          {
+            "ms": 125.59000000000002,
+            "count": 69
+          }
+        ],
+        [
+          "WebFrameWidgetImpl::UpdateLifecycle",
+          {
+            "ms": 74.86099999999999,
+            "count": 68
+          }
+        ],
+        [
+          "LocalFrameView::RunStyleAndLayoutLifecyclePhases",
+          {
+            "ms": 41.26300000000001,
+            "count": 68
+          }
+        ],
+        [
+          "LocalFrameView::UpdateStyleAndLayout",
+          {
+            "ms": 40.60600000000001,
+            "count": 68
+          }
+        ],
+        [
+          "Blink.Layout.UpdateTime",
+          {
+            "ms": 29.41,
+            "count": 47
+          }
+        ],
+        [
+          "RasterizerTaskImpl::RunOnWorkerThread",
+          {
+            "ms": 28.947,
+            "count": 192
+          }
+        ],
+        [
+          "LocalFrameView::layout",
+          {
+            "ms": 28.528000000000002,
+            "count": 47
+          }
+        ],
+        [
+          "Layout",
+          {
+            "ms": 28.38200000000001,
+            "count": 47
+          }
+        ],
+        [
+          "LocalFrameView::performLayout",
+          {
+            "ms": 27.853999999999996,
+            "count": 47
+          }
+        ],
+        [
+          "RasterTask",
+          {
+            "ms": 26.36499999999999,
+            "count": 192
+          }
+        ],
+        [
+          "ZeroCopyRasterBuffer::Playback",
+          {
+            "ms": 25.360999999999997,
+            "count": 192
+          }
+        ],
+        [
+          "LocalFrameView::RunPaintLifecyclePhase",
+          {
+            "ms": 21.468999999999998,
+            "count": 69
+          }
+        ],
+        [
+          "ProxyImpl::ReadyToCommit",
+          {
+            "ms": 19.019,
+            "count": 69
+          }
+        ],
+        [
+          "Paint",
+          {
+            "ms": 17.192,
+            "count": 144
+          }
+        ]
+      ],
+      "cdpMetrics": [
+        {
+          "name": "Timestamp",
+          "value": 1373132.977255
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 4
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 1
+        },
+        {
+          "name": "Frames",
+          "value": 1
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 24
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 2732
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 2499
+        },
+        {
+          "name": "Resources",
+          "value": 0
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 4
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 1
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 5
+        },
+        {
+          "name": "LayoutCount",
+          "value": 58
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 58
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.037527
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.012286
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.004041
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.21778
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 6.174472
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 5.902838
+        },
+        {
+          "name": "ThreadTime",
+          "value": 6.128788
+        },
+        {
+          "name": "ProcessTime",
+          "value": 7.757922
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 4184244
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 8482816
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 0
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 1373125.695427
+        },
+        {
+          "name": "NavigationStart",
+          "value": 1373125.669624
+        }
+      ],
+      "errors": [],
+      "durationMs": 5000
+    },
+    {
+      "phase": "before",
+      "scene": "boss",
+      "context": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "seed": "OVERDRIVE-V1",
+      "profile": "HIGH",
+      "viewport": [
+        1280,
+        800
+      ],
+      "dpr": 2,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "samples": 76,
+      "fps": 15.371546458476601,
+      "meanMs": 65.05526315789473,
+      "p50Ms": 66.69999999999982,
+      "p95Ms": 100,
+      "p99Ms": 100.09999999999991,
+      "longFrames50": 44,
+      "overBudget167": 75,
+      "particleEmitted": 621,
+      "cpuTotalsMs": {
+        "lights": 4.599999904632568,
+        "shadowGeometry": 0.5,
+        "render": 46.599997997283936,
+        "particles": 2.3000009059906006,
+        "particlesEffects": 3.5000009536743164,
+        "ai": 0.2999999523162842,
+        "boss": 1.7999992370605469,
+        "bulletIntegration": 6.40000057220459,
+        "collisionChecks": 28.899998664855957,
+        "bulletPhysicsCollision": 53.799999713897705,
+        "update": 66.19999837875366,
+        "hud": 22.500001430511475
+      },
+      "cpuCalls": {
+        "lights": 939,
+        "shadowGeometry": 152,
+        "render": 76,
+        "particles": 419,
+        "particlesEffects": 419,
+        "ai": 391,
+        "boss": 391,
+        "bulletIntegration": 14142,
+        "collisionChecks": 14142,
+        "bulletPhysicsCollision": 391,
+        "update": 419,
+        "hud": 54
+      },
+      "peak": {
+        "enemies": 1,
+        "bullets": 59,
+        "particles": 128
+      },
+      "heap": {
+        "used": 10000000,
+        "total": 10000000
+      },
+      "particlesPool": null,
+      "cdpBefore": [
+        {
+          "name": "Timestamp",
+          "value": 1373134.432086
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 4
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 1
+        },
+        {
+          "name": "Frames",
+          "value": 1
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 24
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 116
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 121
+        },
+        {
+          "name": "Resources",
+          "value": 0
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 4
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 1
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 0
+        },
+        {
+          "name": "LayoutCount",
+          "value": 2
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 2
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.000801
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.000276
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.000025
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.002449
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 0.150867
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 0.147316
+        },
+        {
+          "name": "ThreadTime",
+          "value": 0.15007
+        },
+        {
+          "name": "ProcessTime",
+          "value": 1.395716
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 2725684
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 3764224
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 0
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 1373133.176729
+        },
+        {
+          "name": "NavigationStart",
+          "value": 1373133.14751
+        }
+      ],
+      "longTasks50": 39,
+      "traceTop": [
+        [
+          "RunTask",
+          {
+            "ms": 5773.101000000029,
+            "count": 3377
+          }
+        ],
+        [
+          "ProxyMain::BeginMainFrame",
+          {
+            "ms": 5019.1539999999995,
+            "count": 76
+          }
+        ],
+        [
+          "Commit",
+          {
+            "ms": 4779.500999999998,
+            "count": 76
+          }
+        ],
+        [
+          "LayerTreeHost::DoUpdateLayers",
+          {
+            "ms": 4772.045000000001,
+            "count": 76
+          }
+        ],
+        [
+          "WebFrameWidgetImpl::BeginMainFrame",
+          {
+            "ms": 148.60000000000002,
+            "count": 76
+          }
+        ],
+        [
+          "Blink.Animate.UpdateTime",
+          {
+            "ms": 148.07899999999998,
+            "count": 76
+          }
+        ],
+        [
+          "PageAnimator::serviceScriptedAnimations",
+          {
+            "ms": 147.62699999999995,
+            "count": 76
+          }
+        ],
+        [
+          "FrameRequestCallbackCollection::ExecuteFrameCallbacks",
+          {
+            "ms": 146.066,
+            "count": 76
+          }
+        ],
+        [
+          "FireAnimationFrame",
+          {
+            "ms": 145.841,
+            "count": 76
+          }
+        ],
+        [
+          "AsyncTask Run",
+          {
+            "ms": 145.42099999999996,
+            "count": 76
+          }
+        ],
+        [
+          "FunctionCall",
+          {
+            "ms": 143.35900000000004,
+            "count": 76
+          }
+        ],
+        [
+          "Canvas2DResourceProvider::ProduceCanvasResource",
+          {
+            "ms": 125.23400000000002,
+            "count": 77
+          }
+        ],
+        [
+          "WebFrameWidgetImpl::UpdateLifecycle",
+          {
+            "ms": 88.72800000000001,
+            "count": 76
+          }
+        ],
+        [
+          "LocalFrameView::RunStyleAndLayoutLifecyclePhases",
+          {
+            "ms": 50.32,
+            "count": 76
+          }
+        ],
+        [
+          "LocalFrameView::UpdateStyleAndLayout",
+          {
+            "ms": 49.631,
+            "count": 76
+          }
+        ],
+        [
+          "Blink.Layout.UpdateTime",
+          {
+            "ms": 35.629,
+            "count": 54
+          }
+        ],
+        [
+          "LocalFrameView::layout",
+          {
+            "ms": 34.702,
+            "count": 54
+          }
+        ],
+        [
+          "Layout",
+          {
+            "ms": 34.535000000000004,
+            "count": 54
+          }
+        ],
+        [
+          "LocalFrameView::performLayout",
+          {
+            "ms": 33.91499999999999,
+            "count": 54
+          }
+        ],
+        [
+          "RasterizerTaskImpl::RunOnWorkerThread",
+          {
+            "ms": 31.512999999999973,
+            "count": 216
+          }
+        ],
+        [
+          "RasterTask",
+          {
+            "ms": 28.757000000000005,
+            "count": 216
+          }
+        ],
+        [
+          "ZeroCopyRasterBuffer::Playback",
+          {
+            "ms": 27.63200000000001,
+            "count": 216
+          }
+        ],
+        [
+          "LocalFrameView::RunPaintLifecyclePhase",
+          {
+            "ms": 23.692000000000004,
+            "count": 76
+          }
+        ],
+        [
+          "Paint",
+          {
+            "ms": 20.542999999999992,
+            "count": 216
+          }
+        ],
+        [
+          "ProxyImpl::ReadyToCommit",
+          {
+            "ms": 20.167,
+            "count": 77
+          }
+        ]
+      ],
+      "cdpMetrics": [
+        {
+          "name": "Timestamp",
+          "value": 1373140.499483
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 4
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 1
+        },
+        {
+          "name": "Frames",
+          "value": 1
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 24
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 556
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 553
+        },
+        {
+          "name": "Resources",
+          "value": 0
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 4
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 1
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 0
+        },
+        {
+          "name": "LayoutCount",
+          "value": 65
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 65
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.041465
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.014796
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.003832
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.164539
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 6.213784
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 5.989152
+        },
+        {
+          "name": "ThreadTime",
+          "value": 6.174747
+        },
+        {
+          "name": "ProcessTime",
+          "value": 7.699599
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 3577000
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 8744960
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 0
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 1373133.176729
+        },
+        {
+          "name": "NavigationStart",
+          "value": 1373133.14751
+        }
+      ],
+      "errors": [],
+      "durationMs": 5000
+    }
+  ]
+}

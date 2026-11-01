@@ -1,0 +1,4 @@
+{
+  "headless": false,
+  "error": "Error: browserType.launch: spawn UNKNOWN\nCall log:\n\u001b[2m  - <launching> PRIVATE_LOCAL_PATH"
+}

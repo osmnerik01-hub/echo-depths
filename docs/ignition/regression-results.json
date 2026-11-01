@@ -1,0 +1,601 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "PRIVATE_LOCAL_PATH",
+      "test",
+      "--reporter=list,json"
+    ],
+    "configFile": "PRIVATE_LOCAL_PATH",
+    "rootDir": "PRIVATE_LOCAL_PATH",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "PRIVATE_LOCAL_PATH",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "PRIVATE_LOCAL_PATH",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "PRIVATE_LOCAL_PATH",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "PRIVATE_LOCAL_PATH",
+        "snapshotDir": "PRIVATE_LOCAL_PATH",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "launchOptions": {
+            "chromiumSandbox": true,
+            "args": [
+              "--enable-automation"
+            ],
+            "ignoreDefaultArgs": [
+              "--disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion",
+              "--enable-unsafe-swiftshader",
+              "--disable-ipc-flooding-protection",
+              "--unsafely-disable-devtools-self-xss-warnings",
+              "--disable-client-side-phishing-detection"
+            ]
+          },
+          "baseURL": "http://127.0.0.1:5173",
+          "browserName": "chromium",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "deviceScaleFactor": 2,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run dev -- --port 5173 --strictPort",
+      "url": "http://127.0.0.1:5173",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "abyss.spec.js",
+      "file": "abyss.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TAB map preserves combat, fog and weapon selection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4006,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T21:27:07.410Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9752afa9eb2babd3adca-e2e385b0976e59cf35b2",
+          "file": "abyss.spec.js",
+          "line": 9,
+          "column": 1
+        },
+        {
+          "title": "all biomes, shops, bosses and victory using normal combat input bot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 19391,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T21:27:11.600Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "complete-run",
+                      "contentType": "application/json",
+                      "body": "ewogICJzdGF0ZSI6ICJ2aWN0b3J5IiwKICAicm9vbSI6IDE4LAogICJzZWVkIjogIkFCWVNTLTA3IiwKICAiZWxhcHNlZCI6IDI3Ny45MTY2NjY2NjY1NzgyNCwKICAiYmlvbWUiOiAyLAogICJzY3JhcCI6IDEzMzIsCiAgIm5vZGUiOiB7CiAgICAiaWQiOiAiYjItNS0xIiwKICAgICJ0eXBlIjogImJvc3MiLAogICAgImNsZWFyZWQiOiB0cnVlLAogICAgIm5leHQiOiBbXQogIH0sCiAgImdyYXBoIjogWwogICAgewogICAgICAiaWQiOiAiYjItMC0xIiwKICAgICAgInR5cGUiOiAic3RhcnQiLAogICAgICAiZGlzY292ZXJlZCI6IHRydWUsCiAgICAgICJsYXllciI6IDAsCiAgICAgICJsYW5lIjogMQogICAgfSwKICAgIHsKICAgICAgImlkIjogImIyLTEtMCIsCiAgICAgICJ0eXBlIjogImNvbWJhdCIsCiAgICAgICJkaXNjb3ZlcmVkIjogdHJ1ZSwKICAgICAgImxheWVyIjogMSwKICAgICAgImxhbmUiOiAwCiAgICB9LAogICAgewogICAgICAiaWQiOiAiYjItMS0yIiwKICAgICAgInR5cGUiOiAiY29tYmF0IiwKICAgICAgImRpc2NvdmVyZWQiOiB0cnVlLAogICAgICAibGF5ZXIiOiAxLAogICAgICAibGFuZSI6IDIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJiMi0yLTAiLAogICAgICAidHlwZSI6ICJ0cmVhc3VyZSIsCiAgICAgICJkaXNjb3ZlcmVkIjogdHJ1ZSwKICAgICAgImxheWVyIjogMiwKICAgICAgImxhbmUiOiAwCiAgICB9LAogICAgewogICAgICAiaWQiOiAiYjItMi0xIiwKICAgICAgInR5cGUiOiAicmVwYWlyIiwKICAgICAgImRpc2NvdmVyZWQiOiB0cnVlLAogICAgICAibGF5ZXIiOiAyLAogICAgICAibGFuZSI6IDEKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJiMi0yLTIiLAogICAgICAidHlwZSI6ICJ1bmtub3duIiwKICAgICAgImRpc2NvdmVyZWQiOiBmYWxzZSwKICAgICAgImxheWVyIjogMiwKICAgICAgImxhbmUiOiAyCiAgICB9LAogICAgewogICAgICAiaWQiOiAiYjItMy0wIiwKICAgICAgInR5cGUiOiAic2hvcCIsCiAgICAgICJkaXNjb3ZlcmVkIjogdHJ1ZSwKICAgICAgImxheWVyIjogMywKICAgICAgImxhbmUiOiAwCiAgICB9LAogICAgewogICAgICAiaWQiOiAiYjItMy0yIiwKICAgICAgInR5cGUiOiAiZWxpdGUiLAogICAgICAiZGlzY292ZXJlZCI6IHRydWUsCiAgICAgICJsYXllciI6IDMsCiAgICAgICJsYW5lIjogMgogICAgfSwKICAgIHsKICAgICAgImlkIjogImIyLTQtMCIsCiAgICAgICJ0eXBlIjogImNvbWJhdCIsCiAgICAgICJkaXNjb3ZlcmVkIjogdHJ1ZSwKICAgICAgImxheWVyIjogNCwKICAgICAgImxhbmUiOiAwCiAgICB9LAogICAgewogICAgICAiaWQiOiAiYjItNC0yIiwKICAgICAgInR5cGUiOiAicmVwYWlyIiwKICAgICAgImRpc2NvdmVyZWQiOiB0cnVlLAogICAgICAibGF5ZXIiOiA0LAogICAgICAibGFuZSI6IDIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJiMi01LTEiLAogICAgICAidHlwZSI6ICJib3NzIiwKICAgICAgImRpc2NvdmVyZWQiOiB0cnVlLAogICAgICAibGF5ZXIiOiA1LAogICAgICAibGFuZSI6IDEKICAgIH0KICBdLAogICJib3NzIjogewogICAgImlkIjogImhvbGxvdyIsCiAgICAiaHAiOiAtNDEuMzMwMDAwMDAwMDU0NTU0LAogICAgIm1heEhwIjogMzQzMi45NiwKICAgICJwaGFzZSI6IDMKICB9LAogICJzdGF0cyI6IHsKICAgICJyb29tc0NsZWFyZWQiOiAxOCwKICAgICJib3NzZXMiOiAzLAogICAgImRhbWFnZSI6IDE4MTEzLjc3OTIyNjIyNTg3NywKICAgICJ3ZWFwb25zVXNlZCI6IFsKICAgICAgInB1bHNlIiwKICAgICAgInNjYXR0ZXIiLAogICAgICAicmFpbCIsCiAgICAgICJhcmMiLAogICAgICAibm92YSIKICAgIF0sCiAgICAic2NyYXBFYXJuZWQiOiAxOTczLAogICAgInNjcmFwU3BlbnQiOiA2NDEKICB9LAogICJzY29yZSI6IDQxODIwLAogICJyZW1haW5pbmciOiAwLAogICJwbGF5ZXIiOiB7CiAgICAieCI6IDgzMC42NjIwMjI1MzY1Mzg0LAogICAgInkiOiA2MjIuMTg2ODQwODE1NzUyOSwKICAgICJocCI6IDE3MCwKICAgICJ3ZWFwb24iOiAicHVsc2UiLAogICAgImludmVudG9yeSI6IFsKICAgICAgInB1bHNlIiwKICAgICAgInNjYXR0ZXIiLAogICAgICAicmFpbCIsCiAgICAgICJhcmMiLAogICAgICAibm92YSIKICAgIF0sCiAgICAiZGFzaENkIjogMAogIH0sCiAgInF1YWxpdHkiOiAiTUVESVVNIiwKICAicmVuZGVyIjogewogICAgImRwciI6IDEuNSwKICAgICJwaXhlbHMiOiBbCiAgICAgIDE5MjAsCiAgICAgIDEyMDAKICAgIF0sCiAgICAiY2FjaGVkUm9vbSI6IDE4LAogICAgImNhY2hlTWF0Y2hlcyI6IHRydWUKICB9LAogICJwYXJ0aWNsZXMiOiAwLAogICJwb29sIjogewogICAgImNhcGFjaXR5IjogNjUwLAogICAgImNyZWF0ZWQiOiAxMTMsCiAgICAiZnJlZSI6IDExMywKICAgICJyZXVzZWQiOiAxMTg4NgogIH0sCiAgImJ1bGxldHMiOiAwLAogICJlbmVtaWVzIjogW10sCiAgInBlcmZvcm1hbmNlIjogewogICAgInNhbXBsZXMiOiAxNDQsCiAgICAiZnJhbWVNZWFuTXMiOiAxMDQuNjI1LAogICAgImZyYW1lUDk1TXMiOiA0NjYuNjAwMDAwMDAwMDAwMzYsCiAgICAiY3B1TWVhbk1zIjogMS41MDkwMjc3NzU3OTA5NTYzCiAgfQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9752afa9eb2babd3adca-8a261cc3418b7813b878",
+          "file": "abyss.spec.js",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "real-time Hollow Mind frame timing sample",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11431,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T21:27:31.022Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "frame-timing",
+                      "contentType": "application/json",
+                      "body": "ewogICJzY29wZSI6ICJIZWFkbGVzcyBDaHJvbWl1bSwgMTI4MHg4MDAgQ1NTIHBpeGVscywgTUVESVVNIC8gZWZmZWN0aXZlIERQUiAxLjUsIHJlYWwtdGltZSBIb2xsb3cgTWluZCBjb21iYXQgd2l0aCBRQSBpbnB1dCBjb250cm9sbGVyIiwKICAic2FtcGxlcyI6IDE4MiwKICAiZnJhbWVNZWFuTXMiOiA0MC4zODI0MTc1ODI0MTc1OCwKICAiZnJhbWVQOTVNcyI6IDUwLjEwMDAwMDAwMDAwMDM2NCwKICAiY3B1TWVhbk1zIjogMS4yMTA0Mzk1NjAxNzc1NjIsCiAgImFwcHJveEZwcyI6IDI0Ljc2MzI1MjQyMTkwMDUxNAp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9752afa9eb2babd3adca-0fe611d1248eb3a9fdae",
+          "file": "abyss.spec.js",
+          "line": 94,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "combat.spec.js",
+      "file": "combat.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "menu, movement, shooting, dash, pause, resize and runtime errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6105,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T21:27:42.539Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "runtime-metrics",
+                      "contentType": "application/json",
+                      "body": "ewogICJzYW1wbGVzIjogMTEyLAogICJmcmFtZU1lYW5NcyI6IDQ2LjEyOTIxNDI4NTcxNDI4LAogICJmcmFtZVA5NU1zIjogOTkuODk5OTk5OTk5OTk5OTgsCiAgImNwdU1lYW5NcyI6IDEuOTUzNTcxNDM4Nzg5MzY3Nwp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d0cd575ab738e489fd67-3e0c8833682da79b66c5",
+          "file": "combat.spec.js",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "death and restart through real UI",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14449,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T21:27:48.675Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d0cd575ab738e489fd67-d922713571ccebee3883",
+          "file": "combat.spec.js",
+          "line": 48,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "ignition.spec.js",
+      "file": "ignition.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "F4 diagnostics are honest, toggle and survive unavailable WebGL2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1594,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T21:28:03.187Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ae990aadc40478d94005-872032a66b0acaa55ed3",
+          "file": "ignition.spec.js",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "shared atlas Canvas and WebGL2 agree across four scenes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5632,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T21:28:04.805Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "visual-equivalence",
+                      "contentType": "application/json",
+                      "body": "eyJyb3dzIjpbeyJzY2VuZSI6ImVtcHR5IiwicmdiTWVhbkFic29sdXRlRXJyb3IiOjAuMTI5NzIxMzU0MTY2NjY2NjYsInBpeGVsc092ZXIxNlBlcmNlbnQiOjAsImRyYXdDYWxscyI6MiwiZ2xFcnJvciI6MCwicXVhZHMiOjZ9LHsic2NlbmUiOiJub3JtYWwiLCJyZ2JNZWFuQWJzb2x1dGVFcnJvciI6MC4xODI3MDI3OTk0NzkxNjY2OCwicGl4ZWxzT3ZlcjE2UGVyY2VudCI6MCwiZHJhd0NhbGxzIjoyLCJnbEVycm9yIjowLCJxdWFkcyI6MTAyfSx7InNjZW5lIjoiY3Jvd2QiLCJyZ2JNZWFuQWJzb2x1dGVFcnJvciI6MC4yNDk1Nzg0NTA1MjA4MzMzMywicGl4ZWxzT3ZlcjE2UGVyY2VudCI6MCwiZHJhd0NhbGxzIjoyLCJnbEVycm9yIjowLCJxdWFkcyI6MjkwfSx7InNjZW5lIjoiYm9zcyIsInJnYk1lYW5BYnNvbHV0ZUVycm9yIjowLjIzNTM2MjYzMDIwODMzMzM0LCJwaXhlbHNPdmVyMTZQZXJjZW50IjowLCJkcmF3Q2FsbHMiOjIsImdsRXJyb3IiOjAsInF1YWRzIjozNzV9XX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ae990aadc40478d94005-6839beeb16293e7a5108",
+          "file": "ignition.spec.js",
+          "line": 28,
+          "column": 1
+        },
+        {
+          "title": "prototype restores WebGL resources after context loss",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4848,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T21:28:10.460Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ae990aadc40478d94005-dc5a5ae302e31ba015ce",
+          "file": "ignition.spec.js",
+          "line": 112,
+          "column": 1
+        },
+        {
+          "title": "prototype falls back to Canvas when WebGL2 creation fails",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2093,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T21:28:15.336Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ae990aadc40478d94005-ee04b783f073d551cac5",
+          "file": "ignition.spec.js",
+          "line": 135,
+          "column": 1
+        },
+        {
+          "title": "Canvas loss notification pauses the game and restoration rebuilds caches",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2992,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T21:28:17.451Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ae990aadc40478d94005-a8cf69f136855957eee4",
+          "file": "ignition.spec.js",
+          "line": 149,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "memory.spec.js",
+      "file": "memory.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ten full runs release room caches and keep post-GC heap bounded",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 116061,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T21:28:20.499Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "memory-soak",
+                      "contentType": "application/json",
+                      "body": "ewogICJzY29wZSI6ICIxMCBhY2NlbGVyYXRlZCBjb21wbGV0ZSBydW5zLCAxODAgcm9vbXMgLyAzMCBib3NzZXMsIEhJR0ggRFBSMjsgZXZlcnkgcm9vbSByZW5kZXJlZDsgcGF1c2VkIGZvciAyIHJlYWwgc2Vjb25kcyBhZnRlciByZXN0YXJ0IGJlZm9yZSBmb3JjZWQgR0M7IG5vdCBhIHdhbGwtY2xvY2sgZW5kdXJhbmNlL0dQVS1tZW1vcnkgcHJvb2YiLAogICJjaHJvbWl1bSI6ICIxNTYuMC44MDc4LjQiLAogICJncHUiOiBbCiAgICB7CiAgICAgICJ2ZW5kb3JJZCI6IDY1NTM1LAogICAgICAiZGV2aWNlSWQiOiA2NTUzNSwKICAgICAgInN1YlN5c0lkIjogMCwKICAgICAgInJldmlzaW9uIjogMCwKICAgICAgInZlbmRvclN0cmluZyI6ICJHb29nbGUgSW5jLiAoR29vZ2xlKSIsCiAgICAgICJkZXZpY2VTdHJpbmciOiAiQU5HTEUgKEdvb2dsZSwgVnVsa2FuIDEuMy4wIChTd2lmdFNoYWRlciBEZXZpY2UgKFN1Ynplcm8pICgweDAwMDBDMERFKSksIFN3aWZ0U2hhZGVyIGRyaXZlci01LjAuMCkiLAogICAgICAiZHJpdmVyVmVuZG9yIjogIlN3QU5HTEUiLAogICAgICAiZHJpdmVyVmVyc2lvbiI6ICI1LjAuMCIKICAgIH0KICBdLAogICJ2aWV3cG9ydCI6IFsKICAgIDEyODAsCiAgICA4MDAKICBdLAogICJkZXZpY2VTY2FsZUZhY3RvciI6IDIsCiAgInJvb21EcmF3cyI6IDE4MCwKICAic2ltdWxhdGVkU2Vjb25kcyI6IDI5NDcuMjQ5OTk5OTk4OTYzLAogICJzYW1wbGVzIjogWwogICAgewogICAgICAicnVuIjogMSwKICAgICAgImhlYXBVc2VkIjogNDUxNjgyOCwKICAgICAgImRvbSI6IHsKICAgICAgICAiZG9jdW1lbnRzIjogMSwKICAgICAgICAibm9kZXMiOiAxNjcsCiAgICAgICAgImpzRXZlbnRMaXN0ZW5lcnMiOiA0NwogICAgICB9LAogICAgICAicG9vbCI6IHsKICAgICAgICAiY2FwYWNpdHkiOiA2NTAsCiAgICAgICAgImNyZWF0ZWQiOiAxOTksCiAgICAgICAgImZyZWUiOiAxOTksCiAgICAgICAgInJldXNlZCI6IDE2NjE4CiAgICAgIH0KICAgIH0sCiAgICB7CiAgICAgICJydW4iOiAyLAogICAgICAiaGVhcFVzZWQiOiA0NjM2MDI4LAogICAgICAiZG9tIjogewogICAgICAgICJkb2N1bWVudHMiOiAxLAogICAgICAgICJub2RlcyI6IDE2NywKICAgICAgICAianNFdmVudExpc3RlbmVycyI6IDQ3CiAgICAgIH0sCiAgICAgICJwb29sIjogewogICAgICAgICJjYXBhY2l0eSI6IDY1MCwKICAgICAgICAiY3JlYXRlZCI6IDE5OSwKICAgICAgICAiZnJlZSI6IDE5OSwKICAgICAgICAicmV1c2VkIjogMzU4MDQKICAgICAgfQogICAgfSwKICAgIHsKICAgICAgInJ1biI6IDMsCiAgICAgICJoZWFwVXNlZCI6IDQ3MDE1NjAsCiAgICAgICJkb20iOiB7CiAgICAgICAgImRvY3VtZW50cyI6IDEsCiAgICAgICAgIm5vZGVzIjogMTY3LAogICAgICAgICJqc0V2ZW50TGlzdGVuZXJzIjogNDcKICAgICAgfSwKICAgICAgInBvb2wiOiB7CiAgICAgICAgImNhcGFjaXR5IjogNjUwLAogICAgICAgICJjcmVhdGVkIjogMTk5LAogICAgICAgICJmcmVlIjogMTk5LAogICAgICAgICJyZXVzZWQiOiA1NTI0OQogICAgICB9CiAgICB9LAogICAgewogICAgICAicnVuIjogNCwKICAgICAgImhlYXBVc2VkIjogNDc2MDYxNiwKICAgICAgImRvbSI6IHsKICAgICAgICAiZG9jdW1lbnRzIjogMSwKICAgICAgICAibm9kZXMiOiAxNjcsCiAgICAgICAgImpzRXZlbnRMaXN0ZW5lcnMiOiA0NwogICAgICB9LAogICAgICAicG9vbCI6IHsKICAgICAgICAiY2FwYWNpdHkiOiA2NTAsCiAgICAgICAgImNyZWF0ZWQiOiAxOTksCiAgICAgICAgImZyZWUiOiAxOTksCiAgICAgICAgInJldXNlZCI6IDc0MzQ3CiAgICAgIH0KICAgIH0sCiAgICB7CiAgICAgICJydW4iOiA1LAogICAgICAiaGVhcFVzZWQiOiA0Nzc2NjI0LAogICAgICAiZG9tIjogewogICAgICAgICJkb2N1bWVudHMiOiAxLAogICAgICAgICJub2RlcyI6IDE2NywKICAgICAgICAianNFdmVudExpc3RlbmVycyI6IDQ3CiAgICAgIH0sCiAgICAgICJwb29sIjogewogICAgICAgICJjYXBhY2l0eSI6IDY1MCwKICAgICAgICAiY3JlYXRlZCI6IDE5OSwKICAgICAgICAiZnJlZSI6IDE5OSwKICAgICAgICAicmV1c2VkIjogOTIxOTIKICAgICAgfQogICAgfSwKICAgIHsKICAgICAgInJ1biI6IDYsCiAgICAgICJoZWFwVXNlZCI6IDQ4MDgwODgsCiAgICAgICJkb20iOiB7CiAgICAgICAgImRvY3VtZW50cyI6IDEsCiAgICAgICAgIm5vZGVzIjogMTY3LAogICAgICAgICJqc0V2ZW50TGlzdGVuZXJzIjogNDcKICAgICAgfSwKICAgICAgInBvb2wiOiB7CiAgICAgICAgImNhcGFjaXR5IjogNjUwLAogICAgICAgICJjcmVhdGVkIjogMTk5LAogICAgICAgICJmcmVlIjogMTk5LAogICAgICAgICJyZXVzZWQiOiAxMTA5NTYKICAgICAgfQogICAgfSwKICAgIHsKICAgICAgInJ1biI6IDcsCiAgICAgICJoZWFwVXNlZCI6IDQ4NDg0MjgsCiAgICAgICJkb20iOiB7CiAgICAgICAgImRvY3VtZW50cyI6IDEsCiAgICAgICAgIm5vZGVzIjogMTY3LAogICAgICAgICJqc0V2ZW50TGlzdGVuZXJzIjogNDcKICAgICAgfSwKICAgICAgInBvb2wiOiB7CiAgICAgICAgImNhcGFjaXR5IjogNjUwLAogICAgICAgICJjcmVhdGVkIjogMTk5LAogICAgICAgICJmcmVlIjogMTk5LAogICAgICAgICJyZXVzZWQiOiAxMjkyMDAKICAgICAgfQogICAgfSwKICAgIHsKICAgICAgInJ1biI6IDgsCiAgICAgICJoZWFwVXNlZCI6IDQ4NTk1ODAsCiAgICAgICJkb20iOiB7CiAgICAgICAgImRvY3VtZW50cyI6IDEsCiAgICAgICAgIm5vZGVzIjogMTY3LAogICAgICAgICJqc0V2ZW50TGlzdGVuZXJzIjogNDcKICAgICAgfSwKICAgICAgInBvb2wiOiB7CiAgICAgICAgImNhcGFjaXR5IjogNjUwLAogICAgICAgICJjcmVhdGVkIjogMTk5LAogICAgICAgICJmcmVlIjogMTk5LAogICAgICAgICJyZXVzZWQiOiAxNDYwNDIKICAgICAgfQogICAgfSwKICAgIHsKICAgICAgInJ1biI6IDksCiAgICAgICJoZWFwVXNlZCI6IDQ4OTEyMjQsCiAgICAgICJkb20iOiB7CiAgICAgICAgImRvY3VtZW50cyI6IDEsCiAgICAgICAgIm5vZGVzIjogMTY3LAogICAgICAgICJqc0V2ZW50TGlzdGVuZXJzIjogNDcKICAgICAgfSwKICAgICAgInBvb2wiOiB7CiAgICAgICAgImNhcGFjaXR5IjogNjUwLAogICAgICAgICJjcmVhdGVkIjogMTk5LAogICAgICAgICJmcmVlIjogMTk5LAogICAgICAgICJyZXVzZWQiOiAxNjU4NjEKICAgICAgfQogICAgfSwKICAgIHsKICAgICAgInJ1biI6IDEwLAogICAgICAiaGVhcFVzZWQiOiA0OTEzNDI0LAogICAgICAiZG9tIjogewogICAgICAgICJkb2N1bWVudHMiOiAxLAogICAgICAgICJub2RlcyI6IDE2NywKICAgICAgICAianNFdmVudExpc3RlbmVycyI6IDQ3CiAgICAgIH0sCiAgICAgICJwb29sIjogewogICAgICAgICJjYXBhY2l0eSI6IDY1MCwKICAgICAgICAiY3JlYXRlZCI6IDIyNSwKICAgICAgICAiZnJlZSI6IDIyNSwKICAgICAgICAicmV1c2VkIjogMTgzNDgxCiAgICAgIH0KICAgIH0KICBdLAogICJxdWlldFBhdXNlTXMiOiAyMDAwLAogICJzdGVhZHlBZnRlcldhcm11cFJ1bnMiOiAyLAogICJzdGVhZHlIZWFwUmFuZ2VCeXRlcyI6IDIxMTg2NCwKICAibGFzdE1pbnVzRmlyc3RTdGVhZHlCeXRlcyI6IDIxMTg2NAp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b3a58e996f6ab1f1396-c153df95b759553a6745",
+          "file": "memory.spec.js",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "overdrive.spec.js",
+      "file": "overdrive.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "graphics profiles persist, resize rendering, F3 toggles, HUD nodes are reused",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7878,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T21:30:16.605Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "35b5ca9c7eb195891b1a-4f178aa111767d43a00c",
+          "file": "overdrive.spec.js",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-31T21:27:06.572Z",
+    "duration": 200115.261,
+    "expected": 12,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "rows": [
+    {
+      "scene": "empty",
+      "rgbMeanAbsoluteError": 0.0035026041666666665,
+      "pixelsOver16Percent": 0,
+      "drawCalls": 2,
+      "glError": 0,
+      "quads": 6
+    },
+    {
+      "scene": "normal",
+      "rgbMeanAbsoluteError": 0.010064453125,
+      "pixelsOver16Percent": 0,
+      "drawCalls": 2,
+      "glError": 0,
+      "quads": 102
+    },
+    {
+      "scene": "crowd",
+      "rgbMeanAbsoluteError": 0.0183115234375,
+      "pixelsOver16Percent": 0,
+      "drawCalls": 2,
+      "glError": 0,
+      "quads": 290
+    },
+    {
+      "scene": "boss",
+      "rgbMeanAbsoluteError": 0.017362955729166667,
+      "pixelsOver16Percent": 0,
+      "drawCalls": 2,
+      "glError": 0,
+      "quads": 375
+    }
+  ]
+}
