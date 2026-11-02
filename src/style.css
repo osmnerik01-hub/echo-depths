@@ -695,3 +695,32 @@ button:focus-visible {
 
 #gpu-diagnostics { position:fixed; top:76px; right:14px; z-index:100; max-width:min(580px,90vw); padding:16px; border:1px solid #467d83; background:#07111af5; color:#c1f4e9; font:12px/1.7 monospace; white-space:pre-wrap; pointer-events:none; overflow-wrap:anywhere; }
 #gpu-diagnostics[hidden] { display:none; }
+
+.echo-record {
+  margin-top: 18px;
+  border-top: 1px solid #26404f;
+  padding-top: 14px;
+  text-align: left;
+}
+.echo-record .secondary {
+  max-width: 100%;
+  white-space: normal;
+}
+#echo-record-text {
+  margin-top: 12px;
+  padding: clamp(12px, 3vw, 20px);
+  border: 1px solid #324a5e;
+  border-left: 3px solid #65c9ad;
+  background: #0b1520;
+  color: #d3e9e6;
+  font: 14px/1.7 monospace;
+  overflow-wrap: anywhere;
+}
+#echo-record-text p { margin: 8px 0 0; }
+
+.map-panel button:focus-visible {
+  outline: 3px solid #b9ffe9;
+  outline-offset: 3px;
+}
+
+.map-keyboard-hint { color: #a4b9c8; font-size: 12px; line-height: 1.5; }

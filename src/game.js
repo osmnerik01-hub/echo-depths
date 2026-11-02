@@ -185,6 +185,17 @@ export class Game {
         this.showFPS = !this.showFPS;
         return;
       }
+      // Tab/Escape retain their map-return shortcuts; arrows navigate its controls.
+      if (this.state === "map" && ["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(e.code)) {
+        const controls = [...this.overlay.querySelectorAll("button:not(:disabled)")];
+        if (controls.length) {
+          e.preventDefault();
+          const index = controls.indexOf(document.activeElement);
+          const direction = ["ArrowLeft", "ArrowUp"].includes(e.code) ? -1 : 1;
+          controls[(index + direction + controls.length) % controls.length].focus();
+        }
+        return;
+      }
       this.keys.add(e.code);
       if (
         e.code === "Tab" &&
@@ -365,8 +376,21 @@ export class Game {
       .forEach(
         (button) => (button.onclick = () => this.travelTo(button.dataset.node)),
       );
+    if (this.currentNode.cleared) {
+      const toggle = document.querySelector("#toggle-echo-record");
+      toggle.onclick = () => {
+        const text = document.querySelector("#echo-record-text");
+        text.hidden = !text.hidden;
+        toggle.setAttribute("aria-expanded", String(!text.hidden));
+        toggle.textContent = text.hidden ? "Yankı kaydını oku" : "Yankı kaydını kapat";
+      };
+    }
     if (!mandatory)
       document.querySelector("#close-map").onclick = () => this.closeMap();
+    const initialControl = this.currentNode.cleared
+      ? document.querySelector("#toggle-echo-record")
+      : document.querySelector("#close-map");
+    initialControl?.focus?.();
     return true;
   }
   closeMap() {
